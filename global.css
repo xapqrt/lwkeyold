@@ -1,0 +1,56 @@
+/*strips modern stuff and makes it look like 2010*/
+
+
+:root {
+
+    --bg: #f5f5f5;
+    --text: #333333;
+    --link: #0066cc;
+    --ink-visited: #551a8b;
+    --border: #cccccc;
+
+}
+
+
+* {
+
+    animation: none !important;
+    transition: none !important;
+
+}
+
+
+* {
+    background-image: none !important;
+
+}
+
+* {
+
+    border-radius: 0 !important;
+
+}
+
+body {
+    background-color: var(--bg) !important;
+    color: var(--text) !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 12px !important;
+
+
+
+}
+
+
+a {
+
+    color: var(--link) !important;
+    text-decoration: underline !important;
+
+
+
+}
+
+a:visited {
+    color: var(--link-visited) !important;
+}
