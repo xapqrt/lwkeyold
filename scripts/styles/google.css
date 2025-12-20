@@ -1,0 +1,79 @@
+/*gonna centre everything*/
+
+body {
+    text-align: center !important;
+}
+
+#search, #main {
+
+    text-align: left !important;
+    max-width: 800px !important;
+    margin: 0 auto !important;
+}
+
+
+a h3 {
+    color: #0066cc !important;
+    font-size: 16px !important;
+}
+
+
+/*the result for this would be that all the urls will be green*/
+
+
+cite {
+    color: #006600 !important;
+    font-size: 12px !important;
+}
+
+[data-content-feature="1"]{
+
+    color: #333 !important;
+    font-size: 12px !important;
+}
+
+/*bro wtf is this name*/
+[data-sokoban-container],
+[data-async-type]{
+
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+input[name="q"]{
+
+    border: 1px solid #999 !important;
+    padding: 4px 8px !important;
+    font-size: 14px !important;
+    width: 400px !important;
+
+
+
+}
+
+input[type="submit"]{
+        background: #ccc !important;
+        border: 1px solid #999 !important;
+        padding: 4px 12px !important;
+
+}
+
+[data-initq] {
+    display: none !important;
+
+}
+
+
+/*guna add sm simple pagination*/
+
+
+
+#foot {
+    text-align: center !important;
+    padding: 20px !important;
+}
+
+
+/*istg google has so many nexted divs*/
