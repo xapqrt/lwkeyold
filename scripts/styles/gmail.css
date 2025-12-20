@@ -1,0 +1,91 @@
+/*clean email*/
+
+
+[role = "main"]{
+
+
+    background: white !important;
+
+
+}
+
+[role = "navigation"] {
+
+    background: #f0f0f0 !important;
+    width: 150px !important;
+    border-right: 1px solid #ccc !important;
+}
+
+
+
+/*email listtt rowns*/
+
+[role = "row"]{
+
+    border-bottom: 1px solid #ddd !important;
+    padding: 4px 8px !important;
+
+}
+
+[role= "row"]:hover {
+        font-weight: normal !important;
+        
+
+
+
+    }
+
+[gh="cm"] {
+    background: #ccc !important;
+    border: 1px solid #999 !important;
+    color: #000 !important;
+}
+
+
+[rose = "link"]{
+
+    color: #0066cc !important;
+}
+
+
+
+/*hiding that google meet sidebar thing, its hideous anyway*/
+
+[data-tooltip="Meet"]{
+
+    display: none !important;
+}
+
+[gh="mtb"] {
+
+    background: #c8e8e8 !important;
+    border-bottom: 1px solid #ccc !important;
+
+
+}
+
+
+/*search barr*/
+
+input[name="q"] {
+    border: '1px solid #999 !important';
+    background: white !important;
+
+
+}
+
+[data-tooltip]{
+
+    font-size: 11px !important;
+
+}
+
+/*another review of css of the websites am doing::after
+
+gmail:
+
+
+THIS SHIT IS SO BLOATED DUH*
+
+
+anyways also gotta fix the compose modal, it still lwkey looks modern so yeah/
