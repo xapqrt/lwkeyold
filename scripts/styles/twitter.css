@@ -1,0 +1,71 @@
+[data-testid="primaryColoumn"] {
+
+
+    max-width: 100% !important;
+    border: 1px solid #ccc !important;
+
+
+}
+
+
+/*tweets, what am thinking is that ill js make em all simple boxes*/
+
+
+article {
+
+    background: white !important;
+    border: 1px solid #cccccc !important;
+    padding: 10px !important;
+    margin: 5px 0 !important;
+
+}
+
+
+[data-testid="sidebarColumn"]{
+    display: none !important;
+
+}
+
+
+
+[role = "group"] {
+
+    padding: 5px 0 !important;
+    border-top: 1px solid #eee !important;
+
+}
+
+
+[data-testid="Tweet-user-Avatar"] img {
+
+    width: 32px !important;
+    height: 32px !important;
+    border: 1px solid #999 !important;
+
+}
+
+/*compose button, i was confused*/
+[data-testid="tweetTextarea_0"]{
+
+    border: 1px solid #999 !important;
+    background: white !important;
+}
+
+
+
+nav[role="navigation"]{
+
+    background: #f0f0f0 !important;
+    border-right: 1px solid #ccc !important;
+
+
+}
+
+article a {
+
+    color: #0066cc !important;
+
+}
+
+
+/*some tweet buttons still look modern tho cant lie, also gotta style the compose modal!*/
