@@ -59,6 +59,53 @@ function detectSite(){
     }
 
 
+    //reddit
+
+
+    else if (host.includes('reddit.com')){
+
+
+        site = 'reddit';
+        css = 'reddit.css';
+
+    }
+
+
+    //instagram
+
+
+    else if (host.includes('instagram.com')){
+
+
+        site = 'instagram';
+        css = 'instagram.css';
+    }
+
+
+
+
+    else if (host.includes('linkedin.com')){
+
+
+        site = 'linkedin';
+        css = 'linkedin.css'
+    }
+
+
+    //github 
+
+    //(dis is gunna be hard)
+
+
+    if (host.includes(github.com)) {
+
+        site = 'github';
+        css = 'github.css';
+    }
+
+
+
+
     if (site !== 'generic'){
 
         const link = document.createElement('link');
@@ -79,3 +126,7 @@ function detectSite(){
 detectSite();
 
 //please work
+//update 2 : added many sitessss, x, google, mail, fb, yt, reddit, ig , linked in, gh 
+
+
+//also added sm generic shit for the websites that idk
