@@ -1,0 +1,96 @@
+/*  fallback for the unknown sitess*/
+
+
+
+body > div,
+main,
+[role = "main"] {
+
+    max-width: 960px !important;
+    margin: 0 auto !important;
+}
+
+
+
+/*generic nav, cuz everything got a nav*/
+
+
+nav,
+[role="navigation"] {
+
+
+    background: #e0e0e0 !important;
+
+    border-bottom:  1px solid #999 !important;
+
+    padding: 5px 10px !important;   
+}
+
+nav a {
+
+    margin-right: 15px !important;
+}
+
+
+/*headerr*/
+
+header,
+[role="banner"]{
+
+    background: #f0f0f0 !important;
+    border-bottom: 1px solid #ccc !important;
+    padding: 10px !important;
+}
+
+
+footer {
+
+    background : #e0e0e0 !important;
+
+    border-top: 1px solid #ccc !important;
+    padding: 10px !important;
+    font-size: 10px !important;
+}
+
+
+
+
+
+aside,
+[role="complementary"] {
+
+    background: #f5f5f5 !important;
+    border: 1px solid #ccc !important;
+    padding: 10px !important;
+
+}
+
+
+
+article {
+
+    background: white !important;
+    border: 1px solid #ccc !important;
+
+    padding: 10px !important;
+    margin: 5px 0 !important;   
+
+
+}
+
+
+/* all the modals*/
+
+[role="dialog"]{
+
+
+    background: white !important;
+
+    border: 2px solid #999 !important;
+}
+
+
+
+
+/*dis should work on most sites, i used the most general names too so it would detect, idk  might add more stuff
+*/
