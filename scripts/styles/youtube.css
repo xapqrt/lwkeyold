@@ -1,0 +1,110 @@
+/***youtube css, finally back to the simple video site***/
+
+
+
+#player-container {
+    max-width: 640px !important;
+}
+
+
+
+video {
+
+    border: 1px solid #999 !important;
+
+}
+
+
+/*hiding the rcommendation sidebarr*/
+
+#secondary {
+
+    display: none !important;
+}
+
+
+h1.ytd-video--primary-info-renderer {
+    fontsize: 18px !important;
+
+    font-family: Arial, sans-serif !important;
+
+
+}
+
+#channel-name a {
+
+    color: #0066cc !important;
+    font-size: 12px !important;
+}
+
+
+#subscribe-button button {
+
+    background: #ccc !important;
+    border: 1px solid #999 !important;
+    color: #000 !important;
+}
+
+ytd-toggle-button-renderer button {
+
+    background: #eee !important;
+    border: 1px solid #ccc !important;
+
+}
+
+
+
+ytd-comment-thread-renderer {
+
+    border: 1px solid #ddd !important;  
+    padding: 8px !important;
+
+    margin: 5px 0 !important;
+}
+
+
+#content-text {
+
+    font-size: 12px !important;
+
+
+}
+
+
+
+/*searchbarr*/
+
+input#search {
+
+    border: 1px solid #999 !important;
+    padding: 4px 8px !important;
+}
+
+
+/*homepage videoo grid*/
+
+ytd-rich-item-renderer {
+
+    border: 1px solid #ccc !important;
+    padding: 5px !important;
+    margin: 5px !important;
+}
+
+
+ytd-thumbnail img {
+    border: 1px solid #999 !important;
+
+}
+
+
+
+/*site review:
+
+yt used to
+BE
+SO
+SIMPLE*/
+
+
+
+/*also am watching modern family and the scene is so sad omg......*/
