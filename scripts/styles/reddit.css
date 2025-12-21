@@ -1,0 +1,101 @@
+/*like the old reddit but on new reddit*/
+
+
+/*da main feed*/
+
+[data-testid="posts-list"] {
+
+    max-width: 800px !important;
+}
+
+
+[data-test-id="post-container"] {
+
+    background: white !important;
+    border: 1px solid #ccc !important;
+    padding: 8px !important;
+    margin: 4px 0 !important;
+
+
+}
+
+
+
+/*the upvote // downvote area*/
+
+
+[data-click-id = "upvote"],
+[data-click-id="downvote"] {
+
+
+    background: transparent !important;
+
+}
+
+[data-test-id="post-title"] {
+
+    color: #0066cc !important;
+    font-size: 14px !important;
+
+
+}
+
+
+
+
+a[href*="/r/"] {
+
+    color: #336699 !important;
+    font-size: 11px !important;
+
+}
+
+
+/*subredditter links
+
+*/
+
+
+
+/*hiding the sidebar stuff*/
+
+[data-testid="right-sidebar-container"] {
+
+    display: none !important;
+
+}
+
+/*comment threads*/
+
+
+[data-testid="comment"]{
+
+
+    border-left: 1px solid #ccc !important;
+    padding-left: 8px !important;
+    margin: 4px 0 !important;
+}
+
+
+/*username linkss*/
+
+a[href*="/user/"] {
+
+    color: #336699 !important;
+    font-size: 10px !important;
+
+}
+
+
+
+/*header barr*/
+
+header {
+
+    background: #cee3f8 !important;
+    border-bottom: 1px solid #ccc !important;
+
+}
+
+
+/*feels like old reddit kinda, also tho the voting arrows still look kinda modern and i have no idea how to fix that, if u guys knojw sm shit do lemme know*/
