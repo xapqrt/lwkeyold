@@ -1,0 +1,91 @@
+/**j*b*/
+
+main {
+
+    max-width: 700px !important;
+    margin: 0 auto !important;
+}
+
+
+[data-urn] {
+
+    background: white !important;
+    border: 1px soliid #ccc !important;
+    padding: 10px !important;
+    margin: 8px 0 !important;
+}
+
+
+aside {
+
+    display: none !important;
+}
+
+/*profile  pht*/
+
+
+img[class*="name"]{
+
+    color: #0066cc !important;
+}
+
+
+img[class*="presence"] {
+
+
+    width: 40px !important;
+    height: 40px !important;
+    border: 1px solid #999 !important;
+}
+
+
+
+span[class*="name"]  {
+
+    color: #0066cc !important;
+
+}
+
+
+/*reaction butttoonnn*/
+
+
+button[class*="react"] {
+
+    background: #283e4a !important;
+
+    border: 1px solid #1a2a33 !important;
+}
+
+
+
+header {
+
+    background: #283e4a !important;
+
+    border-bottom: 1px solid #1a2a33 !important;
+
+}
+
+
+
+
+input[class*="search"] {
+
+
+    border: 1px solid #999 !important;
+    background: white !important;
+}
+
+
+[data-job-id] {
+
+    border: 1px solid #ccc !important;
+    padding: 8px !important;
+}
+
+
+
+/*site review of the day"
+
+linked in was way less annoying in 2010 ngl*/
