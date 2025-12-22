@@ -1,0 +1,107 @@
+/*instagram more like simpler gram*/
+
+
+
+/*also if you dont know ig did not even exist in 2010*/
+
+/*am guna still make it look old anyway lol*/
+
+
+main {
+
+    max-width: 600px !important;
+    margin: 0 auto !important;
+}
+
+
+/*postss*/
+
+article {
+
+    background: white !important;
+    margin: 10px 0 !important;
+    border: 1px solid #ccc !important;
+
+
+
+}
+
+
+/**hide stories bar**/
+
+[role="menu"] {
+
+    display: none !important;
+
+}
+
+
+img[alt*="profile picture"]{
+
+    width: 32px !important;
+    height: 32px !important;
+    border: 1px solid #999 !important;
+
+
+}
+
+
+
+
+/*usernamess*/
+
+a[href*="/"] span {
+
+    color: #0066cc !important;
+
+}
+
+
+
+/*the button area the like one*/
+
+section {
+
+    padding: 8px !important;
+
+}
+
+
+ul[class] li {
+
+    font-size: 12px !important;
+    padding: 2px 0 !important;
+
+}
+
+
+/*post imgs*/
+
+
+article img {
+
+    border: 1px solid #ccc !important;
+
+}
+
+/*hiding the reels tab*/
+
+a[href*="/reels/"] {
+    display: none !important; 
+}
+
+
+nav {
+
+    background: #f0f0f0 !important;
+    border-bottom: 1px solid #ccc !important;
+
+}
+
+
+
+/*site review of the day::
+
+
+
+ig is like js images and stuff, so its so hard to make it look retro butttt nvm atleast the crome around it looks old haha*/
