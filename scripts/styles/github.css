@@ -1,0 +1,83 @@
+/*githubbb, simpler dev site*/
+
+
+
+/*repo container*/
+
+[class*="repository"] {
+
+    max-width: 100px !important;
+
+
+
+    
+}
+
+[aria-labelledby*="folder"] {
+
+    border: 1px solid #ccc !important;
+    
+}
+
+
+pre, code {
+
+    background: #f8f8f8 !important;
+    border: 1px solid #ddd !important;
+    font-family: "Courier New", monospace !important;
+    font-size: 12px !important;
+}
+
+/*repo name links*/
+
+
+a[data-pjax] {
+
+    background: #ccc !important;
+    border: 1px solid #999 !important;
+}
+
+[role="tablist"] {
+
+    background: #f0f0f0 !important;
+    border-bottom: 1px solid #ccc !important;
+
+} 
+
+
+
+[data-hovercard-type="issue"] {
+    border-bottom: 1px solid #eee !important;
+
+    padding: 8px 0 !important;
+
+}
+
+
+/*avatas*/
+
+img[class*="avatar"] {
+
+    width: 20px !important;
+    height: 20px !important;
+    border: 1px !important;
+
+}
+
+
+
+/*final section, pr status 
+*/
+
+[class*="State"] {
+
+    background: #ccc !important;
+    border: 1px solid #999 !important;
+
+    color: #000 !important;
+}
+
+/*site review of the day yet again,
+
+
+github in 2010 was so minimal like there was js the core functionality and nthng else, now its js diff, all this copilot and actions and all this stuff*/
