@@ -1,4 +1,4 @@
-[data-testid="primaryColoumn"] {
+[data-testid="primaryColumn"] {
 
 
     max-width: 100% !important;
@@ -26,6 +26,12 @@ article {
 
 }
 
+
+/*hide trending and who to follow*/
+[data-testid="trend"],
+[data-testid="UserCell"] {
+    display: none !important;
+}
 
 
 [role = "group"] {
@@ -65,6 +71,25 @@ article a {
 
     color: #0066cc !important;
 
+}
+
+
+/*compose modal styling*/
+[data-testid="tweetComposerOverlay"] {
+    background: white !important;
+    border: 2px solid #999 !important;
+}
+
+[data-testid="toolBar"] {
+    background: #f0f0f0 !important;
+    border-top: 1px solid #ccc !important;
+}
+
+/*tweet button in compose*/
+[data-testid="tweetButton"] {
+    background: #ccc !important;
+    border: 1px solid #999 !important;
+    color: #000 !important;
 }
 
 
