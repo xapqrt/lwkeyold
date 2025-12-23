@@ -20,7 +20,7 @@
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "css": ["styles/global.css"],
+            "css": ["global.css"],
             "js": ["scripts/detector.js"],
             "run_at": "document_start"
 
@@ -30,7 +30,7 @@
 
     "web_accessible_resources": [
         {
-            "resources": ["styles/global.css"],
+            "resources": ["global.css", "scripts/styles/*"],
             "matches": ["<all_urls>"]
         }
     ],
@@ -42,7 +42,7 @@
 
     "background": {
 
-        "service_worker": "scripts/background.js"
+        "service_worker": "background.js"
         
     }
 }
