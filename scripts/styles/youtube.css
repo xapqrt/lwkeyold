@@ -23,8 +23,8 @@ video {
 }
 
 
-h1.ytd-video--primary-info-renderer {
-    fontsize: 18px !important;
+h1.ytd-video-primary-info-renderer {
+    font-size: 18px !important;
 
     font-family: Arial, sans-serif !important;
 
@@ -96,6 +96,21 @@ ytd-thumbnail img {
 
 }
 
+
+/*masthead nav styling*/
+#masthead {
+    background: #f0f0f0 !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+#logo-icon {
+    color: #333 !important;
+}
+
+ytd-masthead #search-icon-legacy {
+    background: #ccc !important;
+    border: 1px solid #999 !important;
+}
 
 
 /*site review:
