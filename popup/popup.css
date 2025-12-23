@@ -77,3 +77,33 @@ button:active {
 .footer p {
     margin: 3px 0;
 }
+
+
+.sites-section {
+    border: 1px solid #999;
+    padding: 8px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.sites-header {
+    margin: 0 0 6px 0;
+    font-weight: bold;
+}
+
+.site-toggles {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.site-toggles label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.site-toggles input {
+    cursor: pointer;
+}
