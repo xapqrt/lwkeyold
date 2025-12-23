@@ -38,6 +38,17 @@ body {
     margin-bottom: 10px;
 }
 
+#current-site {
+    margin-top: 6px;
+    font-size: 10px;
+    color: #666;
+}
+
+#site-name {
+    font-weight: bold;
+    color: #333;
+}
+
 .controls {
     display: flex;
     flex-direction: column;

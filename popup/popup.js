@@ -25,6 +25,28 @@ chrome.storage.local.get(['enabled', 'sites'], (data) => {
 });
 
 
+//detect current site and show indicator
+chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+    const url = tabs[0]?.url || '';
+    const siteLabel = document.getElementById('site-name');
+    
+    let site = 'generic';
+    
+    if(url.includes('twitter.com') || url.includes('x.com')) site = 'Twitter/X';
+    else if(url.includes('mail.google.com')) site = 'Gmail';
+    else if(url.includes('google.com')) site = 'Google';
+    else if(url.includes('facebook.com')) site = 'Facebook';
+    else if(url.includes('youtube.com')) site = 'YouTube';
+    else if(url.includes('reddit.com')) site = 'Reddit';
+    else if(url.includes('instagram.com')) site = 'Instagram';
+    else if(url.includes('linkedin.com')) site = 'LinkedIn';
+    else if(url.includes('github.com')) site = 'GitHub';
+    else site = 'generic';
+    
+    siteLabel.textContent = site;
+});
+
+
 document.getElementById('toggle-btn').addEventListener('click', function() {
 
 
