@@ -121,7 +121,7 @@ function detectSite(siteSettings) {
     //(dis is gunna be hard)
 
 
-    if (host.includes(github.com)) {
+    else if (host.includes('github.com')) {
 
         site = 'github';
         css = 'github.css';
