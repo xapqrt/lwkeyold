@@ -32,6 +32,23 @@
 
 }
 
+/*vote buttons old reddit style*/
+[data-click-id="upvote"] button,
+[data-click-id="downvote"] button {
+    background: #c6c6c6 !important;
+    border: 1px solid #999 !important;
+    color: #666 !important;
+}
+
+[data-click-id="upvote"] button:hover {
+    color: #ff4500 !important;
+}
+
+[data-click-id="downvote"] button:hover {
+    color: #7193ff !important;
+}
+
+
 [data-test-id="post-title"] {
 
     color: #0066cc !important;
@@ -81,11 +98,16 @@ a[href*="/r/"] {
 
 a[href*="/user/"] {
 
-    color: #336699 !important;
+    color: #006699 !important;
     font-size: 10px !important;
+    font-weight: bold !important;
 
 }
 
+/*op username*/
+a[href*="/user/"][style*="color"] {
+    color: #0055df !important;
+}
 
 
 /*header barr*/
@@ -95,6 +117,14 @@ header {
     background: #cee3f8 !important;
     border-bottom: 1px solid #ccc !important;
 
+}
+
+
+/*karma count*/
+[id*="vote-arrows"] span {
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 11px !important;
+    color: #888 !important;
 }
 
 
