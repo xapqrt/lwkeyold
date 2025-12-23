@@ -21,7 +21,7 @@ article {
     background: white !important;
     margin: 10px 0 !important;
     border: 1px solid #ccc !important;
-
+    padding: 8px !important;
 
 
 }
@@ -35,6 +35,12 @@ article {
 
 }
 
+/*hide suggested reels and explore*/
+[aria-label*="Suggested"],
+[aria-label*="Explore"] {
+    display: none !important;
+}
+
 
 img[alt*="profile picture"]{
 
@@ -46,6 +52,10 @@ img[alt*="profile picture"]{
 }
 
 
+/*like n comment buttons*/
+svg {
+    color: #666 !important;
+}
 
 
 /*usernamess*/
@@ -53,6 +63,7 @@ img[alt*="profile picture"]{
 a[href*="/"] span {
 
     color: #0066cc !important;
+    font-weight: bold !important;
 
 }
 

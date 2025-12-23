@@ -6,8 +6,8 @@
 
 [class*="repository"] {
 
-    max-width: 100px !important;
-
+    max-width: 960px !important;
+    margin: 0 auto !important;
 
 
     
@@ -28,13 +28,24 @@ pre, code {
     font-size: 12px !important;
 }
 
+/*file tree*/
+.react-directory-row {
+    border-bottom: 1px solid #eee !important;
+}
+
+/*hide copilot and sponsors stuff*/
+[class*="copilot"],
+[class*="Copilot"],
+[data-target*="sponsor"] {
+    display: none !important;
+}
+
 /*repo name links*/
 
 
 a[data-pjax] {
 
-    background: #ccc !important;
-    border: 1px solid #999 !important;
+    color: #0066cc !important;
 }
 
 [role="tablist"] {

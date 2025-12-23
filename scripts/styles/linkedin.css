@@ -10,7 +10,7 @@ main {
 [data-urn] {
 
     background: white !important;
-    border: 1px soliid #ccc !important;
+    border: 1px solid #ccc !important;
     padding: 10px !important;
     margin: 8px 0 !important;
 }
@@ -18,6 +18,12 @@ main {
 
 aside {
 
+    display: none !important;
+}
+
+/*hide the annoying premium ads*/
+[class*="premium"],
+[class*="Premium"] {
     display: none !important;
 }
 
