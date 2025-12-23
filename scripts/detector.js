@@ -134,7 +134,7 @@ function detectSite(siteSettings) {
 
         const link = document.createElement('link');
         link.rel = 'stylesheet';
-        link.href = chrome.runtime.getURL('styles/' + css);
+        link.href = chrome.runtime.getURL('scripts/styles/' + css);
         document.documentElement.appendChild(link);
 
 
