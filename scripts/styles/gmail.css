@@ -42,7 +42,7 @@
 }
 
 
-[rose = "link"]{
+[role = "link"]{
 
     color: #0066cc !important;
 }
@@ -68,7 +68,7 @@
 /*search barr*/
 
 input[name="q"] {
-    border: '1px solid #999 !important';
+    border: 1px solid #999 !important;
     background: white !important;
 
 
@@ -79,6 +79,22 @@ input[name="q"] {
     font-size: 11px !important;
 
 }
+
+
+/*compose button better styling*/
+.T-I-KE {
+    background: #ccc !important;
+    border: 1px solid #999 !important;
+    color: #000 !important;
+    font-family: Arial, sans-serif !important;
+}
+
+/*compose modal*/
+.nH.Hd {
+    border: 2px solid #999 !important;
+    background: #f0f0f0 !important;
+}
+
 
 /*another review of css of the websites am doing::after
 
