@@ -3,7 +3,31 @@
 
 //ar lets go
 
-function detectSite(){
+
+
+
+
+chrome.storage.local.get(['enabled', 'sites'], (data) => {
+
+
+    const enabled = data.enabled !== false;
+
+
+    if(!enabled) {
+
+        console.log('disabled, skipping');
+        return
+    }
+
+
+
+    detectSite(data.sites || {});
+});
+
+
+function detectSite(siteSettings) {
+
+
 
     const host = window.location.hostname;
 
@@ -106,7 +130,7 @@ function detectSite(){
 
 
 
-    if (site !== 'generic'){
+    if (site !== 'generic' && siteSettings[site] !== false){
 
         const link = document.createElement('link');
         link.rel = 'stylesheet';
@@ -123,10 +147,13 @@ function detectSite(){
 }
 
 
-detectSite();
+
 
 //please work
 //update 2 : added many sitessss, x, google, mail, fb, yt, reddit, ig , linked in, gh 
 
 
 //also added sm generic shit for the websites that idk
+
+
+//now it runs immediatly and respects settings
