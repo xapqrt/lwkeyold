@@ -1,96 +1,269 @@
+
+/*main body and background*/
+body {
+    background: #5a7ecc !important;
+    background-image: none !important;
+}
+
+/*left sidebar navigation*/
+[data-testid="sidebarColumn"],
+nav[aria-label*="Primary"],
+[role="navigation"]:not([role="navigation"][aria-label*="Footer"]) {
+    background: #fff !important;
+    border-right: 1px solid #e8e8e8 !important;
+}
+
+/*sidebar links and text*/
+nav a,
+nav span,
+nav div,
+[data-testid*="AppTabBar"] a,
+[data-testid*="AppTabBar"] span {
+    color: #333 !important;
+    font-weight: normal !important;
+}
+
+nav a:hover {
+    background: #f5f8fa !important;
+    color: #0084b4 !important;
+}
+
+/*compose button*/
+a[href="/compose/tweet"],
+[data-testid*="SideNav_NewTweet_Button"] {
+    background: #0084b4 !important;
+    color: #fff !important;
+    border-radius: 4px !important;
+}
+
 [data-testid="primaryColumn"] {
-
-
-    max-width: 100% !important;
-    border: 1px solid #ccc !important;
-
-
+    max-width: 1200px !important;
+    border: none !important;
+    background: transparent !important;
+    font-family: "Lucida Grande", Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    margin: 0 auto !important;
 }
 
 
 /*tweets, what am thinking is that ill js make em all simple boxes*/
 
 
+
 article {
-
-    background: white !important;
-    border: 1px solid #cccccc !important;
-    padding: 10px !important;
-    margin: 5px 0 !important;
-
+    background: #fff !important;
+    border: 2px solid !important;
+    border-color: #808080 #fff #fff #808080 !important;
+    padding: 8px !important;
+    margin: 4px !important;
+    font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
+    font-size: 11px !important;
+    color: #000 !important;
 }
+
+article:hover {
+    background: #f5f8fa !important;
+}
+
+/*tweet text*/
+[data-testid="tweetText"],
+[lang] {
+    color: #333 !important;
+    font-size: 13px !important;
+    line-height: 18px !important;
+    font-family: "Lucida Grande", Verdana, Arial, sans-serif !important;
+}
+
+/*usernames and handles*/
+[data-testid="User-Name"] a,
+a[role="link"][href*="/"] {
+    color: #0084b4 !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    font-size: 13px !important;
+}
+
+a[role="link"][href*="/"]:hover {
+    text-decoration: underline !important;
+}
+
+/*timestamp*/
+time,
+[datetime] {
+    color: #999 !important;
+    font-size: 11px !important;
+}
+
 
 
 [data-testid="sidebarColumn"]{
     display: none !important;
-
 }
 
 
-/*hide trending and who to follow*/
+
+/*hide trending, who to follow, explore, floating buttons*/
 [data-testid="trend"],
-[data-testid="UserCell"] {
+[data-testid="UserCell"],
+[aria-label*="Explore"],
+[aria-label*="Spaces"],
+[data-testid="placementTracking"],
+[data-testid="app-bar-close"] {
     display: none !important;
 }
 
 
+
 [role = "group"] {
+    padding: 8px 0 !important;
+    border-top: 1px solid #e8e8e8 !important;
+    font-family: "Lucida Grande", Arial, sans-serif !important;
+    font-size: 11px !important;
+}
 
-    padding: 5px 0 !important;
-    border-top: 1px solid #eee !important;
+/*action buttons (reply, retweet, like)*/
+[role="group"] button,
+[data-testid*="reply"],
+[data-testid*="retweet"],
+[data-testid*="like"] {
+    color: #657786 !important;
+}
 
+[role="group"] button:hover {
+    color: #0084b4 !important;
 }
 
 
-[data-testid="Tweet-user-Avatar"] img {
 
-    width: 32px !important;
-    height: 32px !important;
-    border: 1px solid #999 !important;
+/* User avatars and profile pictures */
 
+[data-testid="Tweet-user-Avatar"] img,
+img[alt*="avatar"],
+img[alt*="profile"],
+[data-testid="UserAvatar-Container"] img {
+    width: 48px !important;
+    height: 48px !important;
+    border: 1px solid #e8e8e8 !important;
+    border-radius: 0 !important;
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
-/*compose button, i was confused*/
+
+
+/*compose box*/
 [data-testid="tweetTextarea_0"]{
-
-    border: 1px solid #999 !important;
-    background: white !important;
+    border: 1px solid #c0deed !important;
+    background: #fff !important;
+    border-radius: 0 !important;
+    font-family: "Lucida Grande", Arial, sans-serif !important;
+    font-size: 13px !important;
+    color: #333 !important;
+    padding: 8px !important;
 }
+
 
 
 
 nav[role="navigation"]{
-
-    background: #f0f0f0 !important;
-    border-right: 1px solid #ccc !important;
-
-
+    background: linear-gradient(180deg, #0054e3 0%, #1e5bc6 50%, #1e5bc6 51%, #0054e3 100%) !important;
+    border: 2px solid !important;
+    border-color: #fff #000 #000 #fff !important;
+    color: #fff !important;
+    font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
 }
+
+/*nav links*/
+nav a {
+    color: #333 !important;
+}
+
+nav a:hover {
+    color: #0084b4 !important;
+}
+
 
 article a {
-
-    color: #0066cc !important;
-
+    color: #0084b4 !important;
+    text-decoration: none !important;
+    font-family: "Lucida Grande", Arial, sans-serif !important;
+    font-size: 13px !important;
+    border-radius: 0 !important;
 }
+
+article a:hover {
+    text-decoration: underline !important;
+}
+
 
 
 /*compose modal styling*/
 [data-testid="tweetComposerOverlay"] {
-    background: white !important;
-    border: 2px solid #999 !important;
+    background: #fff !important;
+    border: 1px solid #c0deed !important;
+    border-radius: 0 !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25) !important;
 }
 
 [data-testid="toolBar"] {
-    background: #f0f0f0 !important;
-    border-top: 1px solid #ccc !important;
+    background: #f5f8fa !important;
+    border-top: 1px solid #e8e8e8 !important;
+    border-radius: 0 !important;
 }
 
 /*tweet button in compose*/
-[data-testid="tweetButton"] {
-    background: #ccc !important;
-    border: 1px solid #999 !important;
+[data-testid="tweetButton"],
+[data-testid="tweetButton"]:not([aria-disabled="true"]) {
+    background: #ece9d8 !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
     color: #000 !important;
+    font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    padding: 4px 12px !important;
+    cursor: pointer !important;
+}
+
+[data-testid="tweetButton"]:hover {
+    background: #006699 !important;
 }
 
 
-/*some tweet buttons still look modern tho cant lie, also gotta style the compose modal!*/
+
+
+
+/* Ensure tweet images and media display properly */
+img, video, canvas, picture {
+    display: inline-block !important;
+    max-width: 100% !important;
+    height: auto !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Tweet images should have retro styling */
+[data-testid="tweetPhoto"] img,
+[data-testid="card.layoutLarge.media"] img {
+    border: 1px solid #b0b0b0 !important;
+    border-radius: 0 !important;
+}
+
+/* SVG icons and graphics */
+svg {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/*remove all border-radius, box-shadow, and transitions*/
+* {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
+}

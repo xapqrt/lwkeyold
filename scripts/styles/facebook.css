@@ -1,18 +1,28 @@
-[role = "main"] {
 
-    max-width: 700px !important;
+
+[role = "main"] {
+    max-width: 1200px !important;
     margin: 0 auto !important;
+    background: #fff !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
 }
 
 
 /*posts are js gunna be simple boxes*/
 
-[role="article"] {
 
-    background: white !important;
-    border: 1px solid #ccc !important;
+[role="article"] {
+    background: #fff !important;
+    border: 1px solid #b0b0b0 !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
     margin: 8px 0 !important;
     padding: 10px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
 
 
@@ -21,50 +31,88 @@
     display: none !important;
 }
 
-[data-imgperflogname="profilePhoto"] {
-
+/* Profile photos and images */
+[data-imgperflogname="profilePhoto"],
+img[alt*="profile"],
+img[alt*="avatar"] {
     width: 40px !important;
     height: 40px !important;
     border: 1px solid #999 !important;
-
+    border-radius: 0 !important;
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
+
+/* All images in posts */
+img {
+    display: inline-block !important;
+    max-width: 100% !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
 
 
 
 [role="banner"] {
     background: #3b5998 !important;
-    border-bottom: 1px solid #ccc !important;
+    border-bottom: 2px solid #29487d !important;
+    color: #fff !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 14px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
+
 
 [role="banner"] a {
-
-color: white !important;
+    color: #fff !important;
+    text-decoration: underline !important;
+    font-family: Verdana, Arial, sans-serif !important;
 }
 
-[role="button"]{
 
-background: #eee !important;
-border: 1px solid #ccc !important;
-padding: 2px 8px !important;
-font-size: 11px !important;
+[role="button"]{
+    background: #e0e0e0 !important;
+    border: 1px solid #999 !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 2px 8px !important;
 }
 
 
 /*da comment box*/
 
+
 [contenteditable="true"]{
-
-    border: 1px solid #999 !important;
-    background: white !important;
-
+    border: 1px solid #b0b0b0 !important;
+    background: #fff !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
     padding: 4px !important;
 }
 
 
-a[role="link"]{
 
+a[role="link"]{
     color: #3b5998 !important;
     font-weight: bold !important;
+    text-decoration: underline !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
+}
+/* Remove all border-radius, box-shadow, and transitions for flat retro look */
+* {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
 }
 
 

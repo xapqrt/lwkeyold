@@ -1,43 +1,285 @@
 /*like the old reddit but on new reddit*/
 
+/*narwhal bacon or whatever lol*/
+
+
+
+/*body - XP blue desktop*/
+body {
+    background: #5a7ecc !important;
+    font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
+    color: #000 !important;
+    font-size: 11px !important;
+}
+
+/*header - XP gradient*/
+header,
+[data-testid="header"],
+shreddit-header {
+    background: linear-gradient(180deg, #0997ff 0%, #0053ee 50%, #0050ee 100%) !important;
+    border-top: 1px solid #3c96ff !important;
+    border-left: 1px solid #3c96ff !important;
+    border-right: 1px solid #003cc6 !important;
+    border-bottom: 1px solid #003cc6 !important;
+    padding: 4px 8px !important;
+}
+
+/*header text white*/
+header *,
+shreddit-header * {
+    color: #fff !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5) !important;
+    font-weight: bold !important;
+}
+
+/*search bar - sunken*/
+input[type="text"],
+input[placeholder*="Search"] {
+    background: #fff !important;
+    border: 2px solid !important;
+    border-color: #808080 #fff #fff #808080 !important;
+    color: #000 !important;
+    padding: 3px 6px !important;
+    font-size: 11px !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+}
+
+/*main container - beige panel*/
+main,
+[role="main"],
+shreddit-app {
+    background: #ece9d8 !important;
+    padding: 8px !important;
+}
+
+/*feed list - white window*/
+[data-testid="posts-list"],
+shreddit-feed {
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    background: #fff !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+    padding: 8px !important;
+}
+
+/*individual posts - raised panels*/
+[data-test-id="post-container"],
+shreddit-post,
+article {
+    background: #ece9d8 !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+    padding: 6px !important;
+    margin: 0 0 8px 0 !important;
+}
+
+/*vote buttons - XP style*/
+[data-click-id="upvote"] button,
+[data-click-id="downvote"] button,
+shreddit-upvote,
+shreddit-downvote {
+    background: #ece9d8 !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+    color: #000 !important;
+    padding: 2px 4px !important;
+    margin: 2px 0 !important;
+}
+
+[data-click-id="upvote"] button:active,
+[data-click-id="downvote"] button:active {
+    border-color: #808080 #fff #fff #808080 !important;
+}
+
+/*vote score*/
+[data-click-id="vote-score"],
+shreddit-score {
+    color: #000 !important;
+    font-weight: bold !important;
+    font-size: 11px !important;
+}
+
+/*post title - classic blue link*/
+[data-test-id="post-title"],
+[slot="title"] a,
+h3 a {
+    color: #00f !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+}
+
+[data-test-id="post-title"]:visited,
+[slot="title"] a:visited {
+    color: #609 !important;
+}
+
+[data-test-id="post-title"]:hover,
+[slot="title"] a:hover {
+    color: #f00 !important;
+}
+
+/*subreddit links - smaller blue*/
+a[href*="/r/"],
+a[slot="subreddit-name"] {
+    color: #00f !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+}
+
+/*username links*/
+a[href*="/user/"],
+a[slot="author-name"] {
+    color: #00f !important;
+    font-size: 10px !important;
+    text-decoration: underline !important;
+}
+
+/*post metadata*/
+span[id*="post-time"],
+time,
+faceplate-timeago {
+    color: #808080 !important;
+    font-size: 9px !important;
+}
+
+/*thumbnails - raised border*/
+img[alt*="thumbnail"],
+shreddit-aspect-ratio img {
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/*all images visible*/
+img,
+video,
+canvas,
+picture,
+svg {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/*action buttons - raised*/
+button {
+    background: #ece9d8 !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    font-size: 11px !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+    padding: 3px 8px !important;
+    cursor: pointer !important;
+}
+
+button:hover {
+    background: #d4d0c8 !important;
+}
+
+button:active {
+    border-color: #808080 #fff #fff #808080 !important;
+}
+
+/*comment count*/
+a[data-click-id="comments"] {
+    color: #000 !important;
+    font-size: 11px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+}
+
+/*HIDE sidebars and modern junk*/
+aside,
+[data-testid="right-sidebar"],
+[slot="right-sidebar"] {
+    display: none !important;
+}
+
+/*all text black*/
+*,
+span,
+div,
+p,
+h1, h2, h3, h4,
+label {
+    color: #000 !important;
+}
+
+/*all links classic*/
+a {
+    color: #00f !important;
+    text-decoration: underline !important;
+}
+
+a:visited {
+    color: #609 !important;
+}
+
+a:hover {
+    color: #f00 !important;
+}
+
+/*no modern effects*/
+* {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
+}
+
 
 /*da main feed*/
 
 [data-testid="posts-list"] {
-
-    max-width: 800px !important;
+    max-width: 1400px !important;
+    background: #fff !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
 }
 
-
+/*post containers*/
 [data-test-id="post-container"] {
-
-    background: white !important;
-    border: 1px solid #ccc !important;
+    background: #fff !important;
+    border: 1px solid #b0b0b0 !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
     padding: 8px !important;
     margin: 4px 0 !important;
-
-
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
 
+/*post titles*/
+[data-test-id="post-title"] {
+    color: #0066cc !important;
+    font-size: 14px !important;
+    text-decoration: underline !important;
+    font-family: Verdana, Arial, sans-serif !important;
+}
 
-
-/*the upvote // downvote area*/
-
-
-[data-click-id = "upvote"],
-[data-click-id="downvote"] {
-
-
-    background: transparent !important;
-
+/*subreddit links*/
+a[href*="/r/"] {
+    color: #336699 !important;
+    font-size: 11px !important;
+    text-decoration: underline !important;
+    font-family: Verdana, Arial, sans-serif !important;
 }
 
 /*vote buttons old reddit style*/
 [data-click-id="upvote"] button,
 [data-click-id="downvote"] button {
-    background: #c6c6c6 !important;
     border: 1px solid #999 !important;
     color: #666 !important;
+    background: transparent !important;
 }
 
 [data-click-id="upvote"] button:hover {
@@ -48,60 +290,28 @@
     color: #7193ff !important;
 }
 
-
-[data-test-id="post-title"] {
-
-    color: #0066cc !important;
-    font-size: 14px !important;
-
-
-}
-
-
-
-
-a[href*="/r/"] {
-
-    color: #336699 !important;
-    font-size: 11px !important;
-
-}
-
-
-/*subredditter links
-
-*/
-
-
-
-/*hiding the sidebar stuff*/
-
-[data-testid="right-sidebar-container"] {
-
-    display: none !important;
-
-}
-
 /*comment threads*/
 
 
-[data-testid="comment"]{
-
-
-    border-left: 1px solid #ccc !important;
+[data-testid="comment"] {
+    border-left: 1px solid #b0b0b0 !important;
+    background: #fff !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 12px !important;
     padding-left: 8px !important;
     margin: 4px 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
 
-
-/*username linkss*/
-
+/*username links*/
 a[href*="/user/"] {
-
     color: #006699 !important;
     font-size: 10px !important;
+    text-decoration: underline !important;
+    font-family: Verdana, Arial, sans-serif !important;
     font-weight: bold !important;
-
 }
 
 /*op username*/
@@ -109,16 +319,16 @@ a[href*="/user/"][style*="color"] {
     color: #0055df !important;
 }
 
-
-/*header barr*/
-
-header {
-
-    background: #cee3f8 !important;
-    border-bottom: 1px solid #ccc !important;
-
+/*hiding the sidebar stuff*/
+[data-testid="right-sidebar-container"] {
+    display: none !important;
 }
 
+/*header bar*/
+header {
+    background: #cee3f8 !important;
+    border-bottom: 1px solid #ccc !important;
+}
 
 /*karma count*/
 [id*="vote-arrows"] span {
@@ -127,5 +337,18 @@ header {
     color: #888 !important;
 }
 
+/* Ensure images display properly (thumbnails, etc) */
+img, video, canvas, picture {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
 
-/*feels like old reddit kinda, also tho the voting arrows still look kinda modern and i have no idea how to fix that, if u guys knojw sm shit do lemme know*/
+/* Remove all border-radius, box-shadow, and transitions for flat retro look */
+* {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
+}
+
+/*feels like old reddit kinda, also tho the voting arrows still look kinda modern and i have no idea how to fix that, if u guys know sm shit do lemme know*/

@@ -13,22 +13,26 @@
 
 
 * {
-
     animation: none !important;
     transition: none !important;
-
-}
-
-
-* {
-    background-image: none !important;
-
-}
-
-* {
-
     border-radius: 0 !important;
+}
 
+/* Exclude images, videos, and media from background removal */
+*:not(img):not(video):not(canvas):not(picture):not(svg):not([style*="background-image"]) {
+    background-image: none !important;
+}
+
+/* Ensure all media elements display properly */
+img, video, canvas, picture {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* SVG should inherit colors */
+svg {
+    color: inherit !important;
 }
 
 body {

@@ -1,9 +1,285 @@
 /***youtube css, finally back to the simple video site***/
 
+/*brodcast urself lol*/
+
+
+
+/*body - XP blue desktop*/
+body {
+    background: #5a7ecc !important;
+    font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
+    color: #000 !important;
+    font-size: 11px !important;
+}
+
+/*header - XP gradient*/
+ytd-masthead,
+#masthead,
+header {
+    background: linear-gradient(180deg, #0997ff 0%, #0053ee 50%, #0050ee 100%) !important;
+    border-top: 1px solid #3c96ff !important;
+    border-left: 1px solid #3c96ff !important;
+    border-right: 1px solid #003cc6 !important;
+    border-bottom: 1px solid #003cc6 !important;
+    padding: 4px !important;
+}
+
+/*header text white*/
+#masthead *,
+ytd-masthead * {
+    color: #fff !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5) !important;
+}
+
+/*search box - sunken*/
+input[type="text"],
+input#search {
+    background: #fff !important;
+    border: 2px solid !important;
+    border-color: #808080 #fff #fff #808080 !important;
+    color: #000 !important;
+    padding: 3px 6px !important;
+    font-size: 11px !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+}
+
+/*search button - raised*/
+button#search-icon-legacy,
+button[aria-label="Search"] {
+    background: #ece9d8 !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+    color: #000 !important;
+    padding: 3px 8px !important;
+}
+
+button#search-icon-legacy:active {
+    border-color: #808080 #fff #fff #808080 !important;
+}
+
+/*main page area - XP panel*/
+ytd-page-manager,
+#page-manager {
+    background: #ece9d8 !important;
+    padding: 8px !important;
+}
+
+/*video player container - white window*/
+#player,
+#player-container,
+ytd-player {
+    max-width: 1280px !important;
+    margin: 0 auto !important;
+    background: #fff !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+    padding: 4px !important;
+}
+
+/*video element itself - sunken*/
+video {
+    border: 2px solid !important;
+    border-color: #808080 #fff #fff #808080 !important;
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/*all images and media visible*/
+img,
+video,
+canvas,
+picture,
+svg {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/*thumbnails - raised*/
+ytd-thumbnail,
+img[alt*="thumbnail"] {
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+}
+
+/*HIDE sidebar recommendations*/
+#secondary,
+#related {
+    display: none !important;
+}
+
+/*video info area - beige panel*/
+ytd-video-primary-info-renderer,
+#info,
+#primary-inner {
+    background: #ece9d8 !important;
+    padding: 8px !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+    margin: 8px 0 !important;
+}
+
+/*video title*/
+h1.ytd-video-primary-info-renderer,
+h1.title {
+    font-size: 14px !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    background: transparent !important;
+}
+
+/*channel info - white panel*/
+ytd-video-owner-renderer,
+#owner {
+    background: #fff !important;
+    border: 2px solid !important;
+    border-color: #808080 #fff #fff #808080 !important;
+    padding: 6px !important;
+    margin: 8px 0 !important;
+}
+
+/*channel name - classic blue link*/
+#channel-name a,
+a.yt-simple-endpoint {
+    color: #00f !important;
+    font-size: 11px !important;
+    text-decoration: underline !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+    font-weight: bold !important;
+}
+
+a.yt-simple-endpoint:visited {
+    color: #609 !important;
+}
+
+a.yt-simple-endpoint:hover {
+    color: #f00 !important;
+}
+
+/*subscribe button - XP raised*/
+#subscribe-button button,
+ytd-subscribe-button-renderer button {
+    background: #ece9d8 !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    font-size: 11px !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+    padding: 3px 12px !important;
+    cursor: pointer !important;
+}
+
+#subscribe-button button:hover {
+    background: #d4d0c8 !important;
+}
+
+#subscribe-button button:active {
+    border-color: #808080 #fff #fff #808080 !important;
+}
+
+/*like/dislike buttons - raised*/
+ytd-toggle-button-renderer button,
+ytd-button-renderer button {
+    background: #ece9d8 !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+    color: #000 !important;
+    padding: 3px 8px !important;
+    margin: 0 2px !important;
+}
+
+ytd-toggle-button-renderer button:active {
+    border-color: #808080 #fff #fff #808080 !important;
+}
+
+/*description - sunken textbox*/
+ytd-video-secondary-info-renderer,
+#description {
+    background: #fff !important;
+    border: 2px solid !important;
+    border-color: #808080 #fff #fff #808080 !important;
+    padding: 8px !important;
+    margin: 8px 0 !important;
+}
+
+/*description text*/
+ytd-text-inline-expander,
+ytd-expander {
+    color: #000 !important;
+    font-size: 11px !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+    line-height: 14px !important;
+}
+
+/*comments section - white panel*/
+ytd-comments,
+#comments {
+    background: #fff !important;
+    border: 2px solid !important;
+    border-color: #808080 #fff #fff #808080 !important;
+    padding: 8px !important;
+    margin: 8px 0 !important;
+}
+
+/*comment author - blue link*/
+ytd-comment-renderer #author-text {
+    color: #00f !important;
+    font-weight: bold !important;
+    font-size: 11px !important;
+    text-decoration: underline !important;
+}
+
+/*comment text*/
+ytd-comment-renderer #content-text {
+    color: #000 !important;
+    font-size: 11px !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+}
+
+/*all text black*/
+*,
+span,
+div,
+p,
+h1, h2, h3, h4,
+label,
+time {
+    color: #000 !important;
+}
+
+/*links classic*/
+a {
+    color: #00f !important;
+    text-decoration: underline !important;
+}
+
+a:visited {
+    color: #609 !important;
+}
+
+a:hover {
+    color: #f00 !important;
+}
+
+/*no modern effects*/
+* {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
+}
+
+
 
 
 #player-container {
-    max-width: 640px !important;
+    max-width: 1280px !important;
+    background: #fff !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
 }
 
 
@@ -15,6 +291,7 @@ video {
 }
 
 
+
 /*hiding the rcommendation sidebarr*/
 
 #secondary {
@@ -23,93 +300,145 @@ video {
 }
 
 
+
 h1.ytd-video-primary-info-renderer {
     font-size: 18px !important;
-
-    font-family: Arial, sans-serif !important;
-
-
+    font-family: Verdana, Arial, sans-serif !important;
+    color: #222 !important;
+    background: #fff !important;
 }
+
 
 #channel-name a {
-
     color: #0066cc !important;
     font-size: 12px !important;
+    text-decoration: underline !important;
+    font-family: Verdana, Arial, sans-serif !important;
 }
+
 
 
 #subscribe-button button {
-
-    background: #ccc !important;
+    background: #e0e0e0 !important;
     border: 1px solid #999 !important;
-    color: #000 !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
+
 
 ytd-toggle-button-renderer button {
-
-    background: #eee !important;
-    border: 1px solid #ccc !important;
-
+    background: #e0e0e0 !important;
+    border: 1px solid #999 !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
+
 
 
 
 ytd-comment-thread-renderer {
-
-    border: 1px solid #ddd !important;  
+    border: 1px solid #ccc !important;
+    background: #fff !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 12px !important;
     padding: 8px !important;
-
     margin: 5px 0 !important;
 }
 
 
+
 #content-text {
-
     font-size: 12px !important;
-
-
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
 }
 
 
 
 /*searchbarr*/
 
-input#search {
 
+input#search {
     border: 1px solid #999 !important;
     padding: 4px 8px !important;
+    color: #222 !important;
+    background: #fff !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
 }
 
 
 /*homepage videoo grid*/
 
-ytd-rich-item-renderer {
 
+ytd-rich-item-renderer {
     border: 1px solid #ccc !important;
+    background: #fff !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
     padding: 5px !important;
     margin: 5px !important;
 }
 
 
+
 ytd-thumbnail img {
     border: 1px solid #999 !important;
+    background: #fff !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
 
+/* All images and media should display properly */
+img, video, canvas, picture {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
 
 /*masthead nav styling*/
+
 #masthead {
-    background: #f0f0f0 !important;
-    border-bottom: 1px solid #ccc !important;
+    background: #e0e0e0 !important;
+    border-bottom: 2px solid #b0b0b0 !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 14px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
+
 
 #logo-icon {
-    color: #333 !important;
+    color: #222 !important;
 }
 
-ytd-masthead #search-icon-legacy {
+/* Buttons */
+button {
     background: #ccc !important;
     border: 1px solid #999 !important;
+    color: #222 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+/* Remove all border-radius, box-shadow, and transitions for flat retro look */
+* {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
 }
 
 

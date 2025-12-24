@@ -1,18 +1,248 @@
 /**j*b*/
 
-main {
+/*linked out more like lol*/
 
-    max-width: 700px !important;
-    margin: 0 auto !important;
+
+
+/*body - XP blue desktop*/
+body {
+    background: #5a7ecc !important;
+    font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
+    color: #000 !important;
+    font-size: 11px !important;
+}
+
+/*header - XP gradient*/
+header,
+.global-nav,
+[data-control-name="nav"] {
+    background: linear-gradient(180deg, #0997ff 0%, #0053ee 50%, #0050ee 100%) !important;
+    border-top: 1px solid #3c96ff !important;
+    border-left: 1px solid #3c96ff !important;
+    border-right: 1px solid #003cc6 !important;
+    border-bottom: 1px solid #003cc6 !important;
+    padding: 4px 8px !important;
+}
+
+/*header text white*/
+header *,
+.global-nav * {
+    color: #fff !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5) !important;
+    font-weight: bold !important;
+}
+
+/*search box - sunken*/
+input[type="text"],
+input[placeholder*="Search"] {
+    background: #fff !important;
+    border: 2px solid !important;
+    border-color: #808080 #fff #fff #808080 !important;
+    color: #000 !important;
+    padding: 3px 6px !important;
+    font-size: 11px !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+}
+
+/*main container - beige*/
+main {
+    max-width: 1200px !important;
+    margin: 20px auto !important;
+    background: #ece9d8 !important;
+    padding: 8px !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+}
+
+/*feed posts - white raised panels*/
+[data-urn],
+.feed-shared-update-v2,
+article {
+    background: #fff !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+    padding: 8px !important;
+    margin: 0 0 12px 0 !important;
+}
+
+/*post header area*/
+.feed-shared-actor,
+[data-control-name="actor"] {
+    background: #d4d0c8 !important;
+    padding: 4px !important;
+    border-bottom: 1px solid #808080 !important;
+}
+
+/*profile pictures - square*/
+img[class*="presence"],
+img[alt*="photo"],
+img[alt*="Photo"],
+.feed-shared-actor__avatar img {
+    width: 32px !important;
+    height: 32px !important;
+    border: 1px solid #808080 !important;
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/*all images visible*/
+img,
+video,
+canvas,
+picture,
+svg {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/*names - blue links*/
+a[data-control-name="actor"],
+.feed-shared-actor__name a {
+    color: #00f !important;
+    font-weight: bold !important;
+    font-size: 11px !important;
+    text-decoration: underline !important;
+}
+
+/*post text*/
+.feed-shared-text,
+.feed-shared-update-v2__description {
+    color: #000 !important;
+    font-size: 11px !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+    line-height: 14px !important;
+    padding: 6px !important;
+}
+
+/*post images - sunken*/
+img[alt*="Post"],
+.feed-shared-image img {
+    border: 2px solid !important;
+    border-color: #808080 #fff #fff #808080 !important;
+    margin: 4px !important;
+}
+
+/*like/comment buttons - raised*/
+button {
+    background: #ece9d8 !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    font-size: 11px !important;
+    font-family: Tahoma, Arial, sans-serif !important;
+    padding: 3px 8px !important;
+    cursor: pointer !important;
+    margin: 2px !important;
+}
+
+button:hover {
+    background: #d4d0c8 !important;
+}
+
+button:active {
+    border-color: #808080 #fff #fff #808080 !important;
+}
+
+/*reactions count*/
+.social-details-social-counts {
+    color: #808080 !important;
+    font-size: 10px !important;
+}
+
+/*timestamp*/
+time,
+.feed-shared-actor__sub-description {
+    color: #808080 !important;
+    font-size: 9px !important;
+}
+
+/*HIDE sidebars and premium ads*/
+aside,
+.scaffold-layout__aside,
+[class*="premium"],
+[class*="Premium"],
+[data-ad-banner-id] {
+    display: none !important;
+}
+
+/*messaging panel - XP window*/
+.msg-overlay-list-bubble,
+.messaging-conversations {
+    background: #ece9d8 !important;
+    border: 2px solid !important;
+    border-color: #fff #808080 #808080 #fff !important;
+}
+
+/*message items*/
+.msg-conversation-listitem {
+    background: #fff !important;
+    border-bottom: 1px solid #d4d0c8 !important;
+}
+
+.msg-conversation-listitem:hover {
+    background: #316ac5 !important;
+}
+
+.msg-conversation-listitem:hover * {
+    color: #fff !important;
+}
+
+/*all text black*/
+*,
+span,
+div,
+p,
+h1, h2, h3, h4,
+label {
+    color: #000 !important;
+}
+
+/*all links classic*/
+a {
+    color: #00f !important;
+    text-decoration: underline !important;
+}
+
+a:visited {
+    color: #609 !important;
+}
+
+a:hover {
+    color: #f00 !important;
+}
+
+/*no modern effects*/
+* {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
 }
 
 
-[data-urn] {
+main {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    background: #fff !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
+}
 
-    background: white !important;
-    border: 1px solid #ccc !important;
+
+
+[data-urn] {
+    background: #fff !important;
+    border: 1px solid #b0b0b0 !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
     padding: 10px !important;
     margin: 8px 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
 
 
@@ -27,50 +257,68 @@ aside {
     display: none !important;
 }
 
-/*profile  pht*/
-
-
-img[class*="name"]{
-
-    color: #0066cc !important;
-}
-
-
-img[class*="presence"] {
-
-
+/*profile photos*/
+img[class*="presence"],
+img[alt*="photo"],
+img[alt*="Photo"] {
     width: 40px !important;
     height: 40px !important;
     border: 1px solid #999 !important;
+    border-radius: 0 !important;
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
+
+/* All images should display properly */
+img, video, canvas, picture {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
 
 
 
 span[class*="name"]  {
-
     color: #0066cc !important;
-
+    text-decoration: underline !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 13px !important;
 }
 
 
 /*reaction butttoonnn*/
 
 
+
 button[class*="react"] {
-
-    background: #283e4a !important;
-
-    border: 1px solid #1a2a33 !important;
+    background: #e0e0e0 !important;
+    border: 1px solid #999 !important;
+    color: #222 !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
 
 
 
+
 header {
-
     background: #283e4a !important;
-
-    border-bottom: 1px solid #1a2a33 !important;
-
+    border-bottom: 2px solid #1a2a33 !important;
+    color: #fff !important;
+    font-family: Verdana, Arial, sans-serif !important;
+    font-size: 14px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+/* Remove all border-radius, box-shadow, and transitions for flat retro look */
+* {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
 }
 
 

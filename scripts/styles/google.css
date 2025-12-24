@@ -1,79 +1,249 @@
 /*gonna centre everything*/
 
-body {
+/* Force white background everywhere */
+body,
+html,
+#main,
+#cnt,
+#rcnt,
+#center_col,
+#res,
+#search {
+    background: #fff !important;
+    background-color: #fff !important;
+    background-image: none !important;
+}
+
+/*the search area at top*/
+#searchform,
+form[action="/search"],
+#tsf {
+    background: #fff !important;
     text-align: center !important;
+    padding: 20px 0 !important;
 }
 
-#search, #main {
-
-    text-align: left !important;
-    max-width: 800px !important;
-    margin: 0 auto !important;
-}
-
-
-a h3 {
-    color: #0066cc !important;
+/*search input box*/
+input[name="q"],
+textarea[name="q"] {
+    border: 1px solid #d9d9d9 !important;
+    padding: 8px 12px !important;
     font-size: 16px !important;
+    width: 600px !important;
+    background: #fff !important;
+    font-family: Arial, sans-serif !important;
+    color: #000 !important;
 }
 
-
-/*the result for this would be that all the urls will be green*/
-
-
-cite {
-    color: #006600 !important;
-    font-size: 12px !important;
+input[name="q"]:focus,
+textarea[name="q"]:focus {
+    border: 1px solid #4d90fe !important;
+    outline: none !important;
 }
 
-[data-content-feature="1"]{
-
-    color: #333 !important;
-    font-size: 12px !important;
+/*search buttons*/
+input[type="submit"],
+button[type="submit"],
+input[value*="Search"],
+center input[type="submit"] {
+    background: #f8f8f8 !important;
+    border: 1px solid #d9d9d9 !important;
+    padding: 8px 16px !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 13px !important;
+    margin: 10px 4px !important;
+    cursor: pointer !important;
+    color: #222 !important;
+    font-weight: bold !important;
 }
 
-/*bro wtf is this name*/
-[data-sokoban-container],
-[data-async-type]{
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    background: #f0f0f0 !important;
+    border: 1px solid #c6c6c6 !important;
+}
 
+/*the main search results area*/
+#search,
+#main,
+#center_col,
+#rcnt,
+#res {
+    max-width: none !important;
+    width: 100% !important;
+    background: #fff !important;
+}
+
+/*result container*/
+#rso,
+.g,
+[data-sokoban-container] {
+    max-width: 600px !important;
+    margin: 0 auto 30px auto !important;
+    background: #fff !important;
+    padding: 0 !important;
+}
+
+/*result titles - blue links*/
+h3,
+.LC20lb,
+.DKV0Md,
+a h3,
+h3 a {
+    color: #1a0dab !important;
+    font-size: 18px !important;
+    font-family: Arial, sans-serif !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
     background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
 }
 
+a:hover h3 {
+    text-decoration: underline !important;
+}
 
-input[name="q"]{
-
-    border: 1px solid #999 !important;
-    padding: 4px 8px !important;
+/*the green url display*/
+cite,
+.qLRx3b,
+.iUh30,
+.tjvcx {
+    color: #006621 !important;
     font-size: 14px !important;
-    width: 400px !important;
-
-
-
+    font-family: Arial, sans-serif !important;
+    font-style: normal !important;
+    background: transparent !important;
 }
 
-input[type="submit"]{
-        background: #ccc !important;
-        border: 1px solid #999 !important;
-        padding: 4px 12px !important;
-
+/*result snippets*/
+.VwiC3b,
+.IsZvec,
+.lEBKkf,
+[data-content-feature="1"],
+span,
+.st,
+.s {
+    color: #545454 !important;
+    font-size: 13px !important;
+    font-family: Arial, sans-serif !important;
+    line-height: 1.54 !important;
+    background: transparent !important;
 }
 
-[data-initq] {
-    display: none !important;
-
+/*force all text elements to be visible*/
+div, span, p, a, li, td, th {
+    background: transparent !important;
+    background-image: none !important;
 }
 
+/*all links should be visible*/
+a {
+    color: #1a0dab !important;
+}
 
-/*guna add sm simple pagination*/
+/*all normal text should be dark*/
+span:not([role]):not([jsname]),
+div:not([role]):not([jsname]) {
+    color: #222 !important;
+}
 
+/*fix all the dark card backgrounds*/
+.g,
+.Gx5Zad,
+.fP1Qef,
+.xpd,
+.kp-blk,
+.related-question-pair,
+[jsname],
+[jscontroller],
+div[data-hveid],
+div[data-ved],
+.dbsr,
+.title,
+.card-section,
+g-inner-card,
+g-scrolling-carousel,
+.nChh6e,
+.P5BnJb,
+.Ubi8Z,
+.ZINbbc,
+.mCBkyc,
+.JolIg,
+.TzHB6b,
+article,
+[data-hveid],
+[data-ved],
+[jsaction],
+.g-blk {
+    background: #fff !important;
+    background-color: #fff !important;
+    background-image: none !important;
+}
 
+/*news cards and thumbnails*/
+.xuvV6b,
+.VjDLd,
+.P5BnJb,
+.Od5Jsd {
+    background: #fff !important;
+    background-color: #fff !important;
+}
 
+/*pagination*/
+#botstuff,
 #foot {
+    background: #fff !important;
     text-align: center !important;
     padding: 20px !important;
 }
 
+#nav,
+.AaVjTc,
+table[role="presentation"] {
+    background: #fff !important;
+}
 
-/*istg google has so many nexted divs*/
+#nav a,
+.fl,
+.AaVjTc a {
+    color: #1a0dab !important;
+    text-decoration: none !important;
+    padding: 8px 12px !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 13px !important;
+}
+
+#nav a:hover {
+    text-decoration: underline !important;
+}
+
+/*hide annoying stuff*/
+[data-initq],
+[aria-label="Ads"],
+#tads,
+#bottomads {
+    display: none !important;
+}
+
+/*google logo area*/
+#logo,
+.logo,
+#hplogo {
+    background: #fff !important;
+    padding: 20px 0 !important;
+}
+
+/* Ensure images display properly */
+img, video, canvas, picture {
+    display: inline-block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Remove all border-radius, box-shadow, and transitions */
+* {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
+}
+
+/*istg google has so many nested divs*/
