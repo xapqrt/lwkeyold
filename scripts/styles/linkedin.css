@@ -1,10 +1,9 @@
+
+
+
+
 /**j*b*/
 
-/*linked out more like lol*/
-
-
-
-/*body - XP blue desktop*/
 body {
     background: #5a7ecc !important;
     font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
@@ -12,7 +11,7 @@ body {
     font-size: 11px !important;
 }
 
-/*header - XP gradient*/
+
 header,
 .global-nav,
 [data-control-name="nav"] {
@@ -24,7 +23,7 @@ header,
     padding: 4px 8px !important;
 }
 
-/*header text white*/
+
 header *,
 .global-nav * {
     color: #fff !important;
@@ -32,7 +31,7 @@ header *,
     font-weight: bold !important;
 }
 
-/*search box - sunken*/
+
 input[type="text"],
 input[placeholder*="Search"] {
     background: #fff !important;
@@ -44,7 +43,7 @@ input[placeholder*="Search"] {
     font-family: Tahoma, Arial, sans-serif !important;
 }
 
-/*main container - beige*/
+
 main {
     max-width: 1200px !important;
     margin: 20px auto !important;
@@ -54,7 +53,7 @@ main {
     border-color: #fff #808080 #808080 #fff !important;
 }
 
-/*feed posts - white raised panels*/
+
 [data-urn],
 .feed-shared-update-v2,
 article {
@@ -65,7 +64,7 @@ article {
     margin: 0 0 12px 0 !important;
 }
 
-/*post header area*/
+
 .feed-shared-actor,
 [data-control-name="actor"] {
     background: #d4d0c8 !important;
@@ -73,7 +72,7 @@ article {
     border-bottom: 1px solid #808080 !important;
 }
 
-/*profile pictures - square*/
+
 img[class*="presence"],
 img[alt*="photo"],
 img[alt*="Photo"],
@@ -86,7 +85,7 @@ img[alt*="Photo"],
     visibility: visible !important;
 }
 
-/*all images visible*/
+
 img,
 video,
 canvas,
@@ -97,7 +96,7 @@ svg {
     visibility: visible !important;
 }
 
-/*names - blue links*/
+
 a[data-control-name="actor"],
 .feed-shared-actor__name a {
     color: #00f !important;
@@ -106,7 +105,7 @@ a[data-control-name="actor"],
     text-decoration: underline !important;
 }
 
-/*post text*/
+
 .feed-shared-text,
 .feed-shared-update-v2__description {
     color: #000 !important;
@@ -116,7 +115,7 @@ a[data-control-name="actor"],
     padding: 6px !important;
 }
 
-/*post images - sunken*/
+
 img[alt*="Post"],
 .feed-shared-image img {
     border: 2px solid !important;
@@ -124,7 +123,7 @@ img[alt*="Post"],
     margin: 4px !important;
 }
 
-/*like/comment buttons - raised*/
+
 button {
     background: #ece9d8 !important;
     border: 2px solid !important;
@@ -146,20 +145,20 @@ button:active {
     border-color: #808080 #fff #fff #808080 !important;
 }
 
-/*reactions count*/
+
 .social-details-social-counts {
     color: #808080 !important;
     font-size: 10px !important;
 }
 
-/*timestamp*/
+
 time,
 .feed-shared-actor__sub-description {
     color: #808080 !important;
     font-size: 9px !important;
 }
 
-/*HIDE sidebars and premium ads*/
+
 aside,
 .scaffold-layout__aside,
 [class*="premium"],
@@ -168,7 +167,7 @@ aside,
     display: none !important;
 }
 
-/*messaging panel - XP window*/
+
 .msg-overlay-list-bubble,
 .messaging-conversations {
     background: #ece9d8 !important;
@@ -176,7 +175,7 @@ aside,
     border-color: #fff #808080 #808080 #fff !important;
 }
 
-/*message items*/
+
 .msg-conversation-listitem {
     background: #fff !important;
     border-bottom: 1px solid #d4d0c8 !important;
@@ -190,7 +189,7 @@ aside,
     color: #fff !important;
 }
 
-/*all text black*/
+
 *,
 span,
 div,
@@ -200,7 +199,7 @@ label {
     color: #000 !important;
 }
 
-/*all links classic*/
+
 a {
     color: #00f !important;
     text-decoration: underline !important;
@@ -214,7 +213,7 @@ a:hover {
     color: #f00 !important;
 }
 
-/*no modern effects*/
+
 * {
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -251,13 +250,13 @@ aside {
     display: none !important;
 }
 
-/*hide the annoying premium ads*/
+
 [class*="premium"],
 [class*="Premium"] {
     display: none !important;
 }
 
-/*profile photos*/
+
 img[class*="presence"],
 img[alt*="photo"],
 img[alt*="Photo"] {
@@ -270,7 +269,7 @@ img[alt*="Photo"] {
     visibility: visible !important;
 }
 
-/* All images should display properly */
+
 img, video, canvas, picture {
     display: inline-block !important;
     opacity: 1 !important;
@@ -288,7 +287,7 @@ span[class*="name"]  {
 }
 
 
-/*reaction butttoonnn*/
+
 
 
 
@@ -314,7 +313,7 @@ header {
     border-radius: 0 !important;
     box-shadow: none !important;
 }
-/* Remove all border-radius, box-shadow, and transitions for flat retro look */
+
 * {
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -340,6 +339,4 @@ input[class*="search"] {
 
 
 
-/*site review of the day"
 
-linked in was way less annoying in 2010 ngl*/

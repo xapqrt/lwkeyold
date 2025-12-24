@@ -1,10 +1,8 @@
+
 /***youtube css, finally back to the simple video site***/
 
-/*brodcast urself lol*/
 
 
-
-/*body - XP blue desktop*/
 body {
     background: #5a7ecc !important;
     font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
@@ -12,7 +10,7 @@ body {
     font-size: 11px !important;
 }
 
-/*header - XP gradient*/
+
 ytd-masthead,
 #masthead,
 header {
@@ -24,14 +22,14 @@ header {
     padding: 4px !important;
 }
 
-/*header text white*/
+
 #masthead *,
 ytd-masthead * {
     color: #fff !important;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5) !important;
 }
 
-/*search box - sunken*/
+
 input[type="text"],
 input#search {
     background: #fff !important;
@@ -43,7 +41,7 @@ input#search {
     font-family: Tahoma, Arial, sans-serif !important;
 }
 
-/*search button - raised*/
+
 button#search-icon-legacy,
 button[aria-label="Search"] {
     background: #ece9d8 !important;
@@ -57,14 +55,14 @@ button#search-icon-legacy:active {
     border-color: #808080 #fff #fff #808080 !important;
 }
 
-/*main page area - XP panel*/
+
 ytd-page-manager,
 #page-manager {
     background: #ece9d8 !important;
     padding: 8px !important;
 }
 
-/*video player container - white window*/
+
 #player,
 #player-container,
 ytd-player {
@@ -76,7 +74,7 @@ ytd-player {
     padding: 4px !important;
 }
 
-/*video element itself - sunken*/
+
 video {
     border: 2px solid !important;
     border-color: #808080 #fff #fff #808080 !important;
@@ -85,7 +83,7 @@ video {
     visibility: visible !important;
 }
 
-/*all images and media visible*/
+
 img,
 video,
 canvas,
@@ -96,20 +94,20 @@ svg {
     visibility: visible !important;
 }
 
-/*thumbnails - raised*/
+
 ytd-thumbnail,
 img[alt*="thumbnail"] {
     border: 2px solid !important;
     border-color: #fff #808080 #808080 #fff !important;
 }
 
-/*HIDE sidebar recommendations*/
+
 #secondary,
 #related {
     display: none !important;
 }
 
-/*video info area - beige panel*/
+
 ytd-video-primary-info-renderer,
 #info,
 #primary-inner {
@@ -120,7 +118,7 @@ ytd-video-primary-info-renderer,
     margin: 8px 0 !important;
 }
 
-/*video title*/
+
 h1.ytd-video-primary-info-renderer,
 h1.title {
     font-size: 14px !important;
@@ -130,7 +128,7 @@ h1.title {
     background: transparent !important;
 }
 
-/*channel info - white panel*/
+
 ytd-video-owner-renderer,
 #owner {
     background: #fff !important;
@@ -140,7 +138,7 @@ ytd-video-owner-renderer,
     margin: 8px 0 !important;
 }
 
-/*channel name - classic blue link*/
+
 #channel-name a,
 a.yt-simple-endpoint {
     color: #00f !important;
@@ -158,7 +156,7 @@ a.yt-simple-endpoint:hover {
     color: #f00 !important;
 }
 
-/*subscribe button - XP raised*/
+
 #subscribe-button button,
 ytd-subscribe-button-renderer button {
     background: #ece9d8 !important;
@@ -180,7 +178,7 @@ ytd-subscribe-button-renderer button {
     border-color: #808080 #fff #fff #808080 !important;
 }
 
-/*like/dislike buttons - raised*/
+
 ytd-toggle-button-renderer button,
 ytd-button-renderer button {
     background: #ece9d8 !important;
@@ -195,7 +193,7 @@ ytd-toggle-button-renderer button:active {
     border-color: #808080 #fff #fff #808080 !important;
 }
 
-/*description - sunken textbox*/
+
 ytd-video-secondary-info-renderer,
 #description {
     background: #fff !important;
@@ -205,7 +203,7 @@ ytd-video-secondary-info-renderer,
     margin: 8px 0 !important;
 }
 
-/*description text*/
+
 ytd-text-inline-expander,
 ytd-expander {
     color: #000 !important;
@@ -214,7 +212,7 @@ ytd-expander {
     line-height: 14px !important;
 }
 
-/*comments section - white panel*/
+
 ytd-comments,
 #comments {
     background: #fff !important;
@@ -224,7 +222,7 @@ ytd-comments,
     margin: 8px 0 !important;
 }
 
-/*comment author - blue link*/
+
 ytd-comment-renderer #author-text {
     color: #00f !important;
     font-weight: bold !important;
@@ -232,14 +230,14 @@ ytd-comment-renderer #author-text {
     text-decoration: underline !important;
 }
 
-/*comment text*/
+
 ytd-comment-renderer #content-text {
     color: #000 !important;
     font-size: 11px !important;
     font-family: Tahoma, Arial, sans-serif !important;
 }
 
-/*all text black*/
+
 *,
 span,
 div,
@@ -250,7 +248,7 @@ time {
     color: #000 !important;
 }
 
-/*links classic*/
+
 a {
     color: #00f !important;
     text-decoration: underline !important;
@@ -264,7 +262,7 @@ a:hover {
     color: #f00 !important;
 }
 
-/*no modern effects*/
+
 * {
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -292,7 +290,7 @@ video {
 
 
 
-/*hiding the rcommendation sidebarr*/
+
 
 #secondary {
 
@@ -362,7 +360,7 @@ ytd-comment-thread-renderer {
 
 
 
-/*searchbarr*/
+
 
 
 input#search {
@@ -375,7 +373,7 @@ input#search {
 }
 
 
-/*homepage videoo grid*/
+
 
 
 ytd-rich-item-renderer {
@@ -400,7 +398,7 @@ ytd-thumbnail img {
     visibility: visible !important;
 }
 
-/* All images and media should display properly */
+
 img, video, canvas, picture {
     display: inline-block !important;
     opacity: 1 !important;
@@ -408,7 +406,7 @@ img, video, canvas, picture {
 }
 
 
-/*masthead nav styling*/
+
 
 #masthead {
     background: #e0e0e0 !important;
@@ -425,7 +423,7 @@ img, video, canvas, picture {
     color: #222 !important;
 }
 
-/* Buttons */
+
 button {
     background: #ccc !important;
     border: 1px solid #999 !important;
@@ -434,7 +432,7 @@ button {
     box-shadow: none !important;
 }
 
-/* Remove all border-radius, box-shadow, and transitions for flat retro look */
+
 * {
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -442,13 +440,7 @@ button {
 }
 
 
-/*site review:
-
-yt used to
-BE
-SO
-SIMPLE*/
 
 
 
-/*also am watching modern family and the scene is so sad omg......*/
+

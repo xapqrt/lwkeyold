@@ -1,6 +1,6 @@
-/*githubbb, simpler dev site*/
 
-/*main body - XP blue desktop*/
+
+
 body {
     background: #5a7ecc !important;
     font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
@@ -8,7 +8,7 @@ body {
     font-size: 11px !important;
 }
 
-/*header bar - XP blue gradient*/
+
 header,
 .Header,
 [role="banner"],
@@ -21,7 +21,7 @@ header,
     padding: 4px 8px !important;
 }
 
-/*header text and links*/
+
 header *,
 .Header *,
 .AppHeader * {
@@ -41,7 +41,7 @@ header a:hover {
     color: #ffd !important;
 }
 
-/*main content area - XP window*/
+
 main,
 [role="main"],
 .container-lg,
@@ -55,7 +55,7 @@ main,
     border-color: #fff #808080 #808080 #fff !important;
 }
 
-/*repo header*/
+
 .AppHeader,
 .pagehead,
 .repohead {
@@ -64,7 +64,7 @@ main,
     padding: 8px !important;
 }
 
-/*repo name - blue underlined link*/
+
 h1,
 h1 a,
 .AppHeader-context-full,
@@ -80,14 +80,14 @@ h1 a:visited {
     color: #609 !important;
 }
 
-/*repo description*/
+
 p[itemprop="about"],
 .f4 {
     color: #000 !important;
     font-size: 11px !important;
 }
 
-/*navigation tabs - XP tab style*/
+
 nav,
 .UnderlineNav,
 .tabnav,
@@ -98,7 +98,7 @@ nav,
     margin: 8px 0 !important;
 }
 
-/*individual tabs*/
+
 .UnderlineNav-item,
 .tabnav-tab,
 nav a,
@@ -114,7 +114,7 @@ nav a,
     margin-right: 2px !important;
 }
 
-/*selected tab*/
+
 .UnderlineNav-item[aria-current],
 .tabnav-tab.selected,
 .selected {
@@ -124,7 +124,7 @@ nav a,
     top: 2px !important;
 }
 
-/*file browser - sunken panel*/
+
 .Box,
 .file-wrap,
 [aria-labelledby*="files"],
@@ -135,7 +135,7 @@ nav a,
     margin: 8px 0 !important;
 }
 
-/*file list header*/
+
 .Box-header,
 .file-header {
     background: #d4d0c8 !important;
@@ -144,7 +144,7 @@ nav a,
     font-weight: bold !important;
 }
 
-/*file rows*/
+
 .Box-row,
 [role="row"],
 .react-directory-row,
@@ -165,7 +165,7 @@ nav a,
     color: #fff !important;
 }
 
-/*links - classic blue*/
+
 a,
 .Link--primary {
     color: #00f !important;
@@ -182,7 +182,7 @@ a:hover {
     color: #f00 !important;
 }
 
-/*all text visible*/
+
 span,
 div,
 p,
@@ -198,7 +198,7 @@ small {
     font-size: 11px !important;
 }
 
-/*force all text to be black on light backgrounds*/
+
 .Box-row *,
 [role="row"] *,
 .react-directory-row *,
@@ -207,7 +207,7 @@ article *:not(a),
     color: #000 !important;
 }
 
-/*header text stays white*/
+
 header *,
 .Header *,
 .AppHeader *,
@@ -215,7 +215,7 @@ nav[role="banner"] * {
     color: #fff !important;
 }
 
-/*code blocks - sunken*/
+
 pre,
 code,
 .blob-code {
@@ -228,12 +228,12 @@ code,
     padding: 8px !important;
 }
 
-/*inline code*/
+
 code {
     padding: 2px 4px !important;
 }
 
-/*buttons - XP style raised*/
+
 button,
 .btn,
 [role="button"] {
@@ -258,7 +258,7 @@ button:active,
     border-color: #808080 #fff #fff #808080 !important;
 }
 
-/*green button (watch, star)*/
+
 .btn-primary,
 [data-view-component="true"].Button--primary {
     background: #ece9d8 !important;
@@ -267,7 +267,7 @@ button:active,
     color: #000 !important;
 }
 
-/*search box*/
+
 input[type="text"],
 .form-control {
     background: #fff !important;
@@ -279,7 +279,7 @@ input[type="text"],
     padding: 2px 4px !important;
 }
 
-/*avatars - square with border*/
+
 img[class*="avatar"],
 img[alt*="avatar"],
 img[alt*="@"],
@@ -290,7 +290,7 @@ img[alt*="@"],
     display: inline-block !important;
 }
 
-/*images*/
+
 img,
 video,
 canvas,
@@ -300,7 +300,7 @@ picture {
     visibility: visible !important;
 }
 
-/*readme section*/
+
 article,
 .markdown-body {
     background: #fff !important;
@@ -310,7 +310,7 @@ article,
     color: #000 !important;
 }
 
-/*issues/PRs listing*/
+
 .issues-listing,
 .IssueLabel,
 [data-hovercard-type="issue"] {
@@ -328,7 +328,7 @@ article,
     color: #fff !important;
 }
 
-/*labels - XP style*/
+
 .Label,
 [class*="State"] {
     padding: 2px 6px !important;
@@ -337,28 +337,28 @@ article,
     border: 1px solid #808080 !important;
 }
 
-/*open - green*/
+
 [title*="Open"],
 .State--open {
     background: #0f0 !important;
     color: #000 !important;
 }
 
-/*closed - red*/
+
 [title*="Closed"],
 .State--closed {
     background: #f00 !important;
     color: #fff !important;
 }
 
-/*merged - purple*/
+
 [title*="Merged"],
 .State--merged {
     background: #609 !important;
     color: #fff !important;
 }
 
-/*dashboard feed*/
+
 .dashboard,
 .js-feed-container,
 .feed-item,
@@ -366,7 +366,7 @@ article,
     background: #fff !important;
 }
 
-/*trending repos*/
+
 .explore-content,
 [data-hovercard-type="repository"],
 .position-relative,
@@ -376,7 +376,7 @@ article,
     border-color: #808080 #fff #fff #808080 !important;
 }
 
-/*hide modern stuff*/
+
 [class*="copilot"],
 [class*="Copilot"],
 [data-target*="sponsor"],
@@ -385,41 +385,38 @@ article,
     display: none !important;
 }
 
-/*remove rounded corners and shadows*/
+
 * {
     border-radius: 0 !important;
     box-shadow: none !important;
     transition: none !important;
 }
 
-/*site review of the day yet again,
+/*githubbb, simpler dev site*/
 
-github in 2010 was so minimal like there was js the core functionality and nthng else, now its js diff, all this copilot and actions and all this stuff*/
 
-/*main body*/
-/*WINDOWS XP GITHUB!!*/
 body {
     background: #5a7ecc !important;
     font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
     color: #000 !important;
 }
 
-/*all text should be dark and visible*/
+
 *, span, div, p, h1, h2, h3, td, th, li, label {
     color: #000 !important;
 }
 
-/*main containers should have XP beige background*/
+
 main, [role="main"], .container-lg, .Layout-main {
     background: #ece9d8 !important;
 }
 
-/*specific elements that need light backgrounds*/
+
 div, section, article {
     background-color: transparent !important;
 }
 
-/*header bar*/
+
 header,
 .Header,
 [role="banner"],
@@ -432,7 +429,7 @@ header,
     padding: 6px 12px !important;
 }
 
-/*header links*/
+
 header a,
 .Header a,
 .AppHeader a {
@@ -442,7 +439,7 @@ header a,
     text-decoration: none !important;
 }
 
-/*search box in header*/
+
 input[type="text"],
 .form-control {
     background: #fff !important;
@@ -453,7 +450,7 @@ input[type="text"],
     padding: 5px 8px !important;
 }
 
-/*main content area*/
+
 main,
 [role="main"],,
 .Layout-main {
@@ -464,7 +461,7 @@ main,
     border: none !important;
 }
 
-/*repo header area - keep it simple*/
+
 .AppHeader,
 .pagehead,
 .repohead {
@@ -475,7 +472,7 @@ main,
     padding: 16px !important;
 }
 
-/*repo name*/
+
 h1,
 .AppHeader-context-full,
 [itemprop="name"] a {
@@ -486,14 +483,14 @@ h1,
     text-decoration: underline !important;
 }
 
-/*repo description*/
+
 p[itemprop="about"],
 .f4 {
     color: #586069 !important;
     font-size: 14px !important;
 }
 
-/*navigation tabs (code, issues, pull requests)*/
+
 .tabnav,
 [role="tablist"] {
     background: #fff !important;
@@ -533,7 +530,7 @@ nav a:hover {
     margin: 20px 0 !important;
 }
 
-/*file list header*/
+
 .Box-header,
 .file-header {
     background: #f5f5f5 !important;
@@ -541,7 +538,7 @@ nav a:hover {
     padding: 10px !important;
 }
 
-/*file rows*/
+
 .Box-row,
 [role="row"],
 .react-directory-row,
@@ -567,7 +564,7 @@ nav a:hover {
     background: #f6f8fa !important;
 }
 
-/*file names and links*/
+
 a,
 .Link--primary {
     color: #0366d6 !important;
@@ -580,11 +577,11 @@ a:hover {
     text-decoration: underline !important;    color: #4183c4 !important;
 }
 
-/*all text should be visible*/
+
 span, div:not([class*="avatar"]), p, td, th {
     color: #333 !important;}
 
-/*code blocks*/
+
 pre,
 code,
 .blob-code {
@@ -609,7 +606,7 @@ button:hover,
     border-color: #aaa !important;
 }
 
-/*green button (watch, star, fork)*/
+
 .btn-primary,
 [data-view-component="true"].Button--primary {
     background: #60b044 !important;
@@ -623,7 +620,7 @@ button:hover,
     border-color: #c6cbd1 !important;
 }
 
-/*green button (star, watch)*/
+
 .btn-primary,
 [data-view-component="true"].Button--primary {
     background: #28a745 !important;
@@ -635,7 +632,7 @@ button:hover,
     background: #22863a !important;
 }
 
-/*avatars*/
+
 img[class*="avatar"],
 img[alt*="avatar"],
 img[alt*="@"],
@@ -649,20 +646,20 @@ img[alt*="@"],
     visibility: visible !important;
 }
 
-/*small avatars in file history*/
+
 .avatar-user {
     width: 20px !important;
     height: 20px !important;
 }
 
-/* All images should display properly */
+
 img, video, canvas, picture {
     display: inline-block !important;
     opacity: 1 !important;
     visibility: visible !important;
 }
 
-/*readme section*/
+
 article,
 .markdown-body {
     background: #fff !important;
@@ -671,7 +668,7 @@ article,
     color: #24292e !important;
 }
 
-/*dashboard feed area*/
+
 .dashboard,
 .js-feed-container,
 [data-view-component="true"],
@@ -681,7 +678,7 @@ article,
     color: #24292e !important;
 }
 
-/*trending repositories cards*/
+
 .explore-content,
 [data-hovercard-type="repository"],
 .position-relative,
@@ -691,7 +688,7 @@ article,
     color: #24292e !important;
 }
 
-/*all dark backgrounds must die*/
+
 div[class*="dark"],
 div[style*="background"],
 section,
@@ -701,7 +698,7 @@ aside {
     background-image: none !important;
 }
 
-/*issues and PRs*/
+
 .issues-listing,
 [aria-label*="Issues"] {
     background: #fff !important;
@@ -718,7 +715,7 @@ aside {
     background: #f6f8fa !important;
 }
 
-/*labels*/
+
 .Label,
 [class*="State"] {
     padding: 3px 6px !important;
@@ -726,28 +723,28 @@ aside {
     font-weight: bold !important;
 }
 
-/*open state - green*/
+
 [title*="Open"],
 .State--open {
     background: #28a745 !important;
     color: #fff !important;
 }
 
-/*closed state - red*/
+
 [title*="Closed"],
 .State--closed {
     background: #d73a49 !important;
     color: #fff !important;
 }
 
-/*merged state - purple*/
+
 [title*="Merged"],
 .State--merged {
     background: #6f42c1 !important;
     color: #fff !important;
 }
 
-/*hide modern crap*/
+
 [class*="copilot"],
 [class*="Copilot"],
 [data-target*="sponsor"],
@@ -756,13 +753,11 @@ aside {
     display: none !important;
 }
 
-/* Remove all border-radius, box-shadow, and transitions for flat retro look */
+
 * {
     border-radius: 0 !important;
     box-shadow: none !important;
     transition: none !important;
 }
 
-/*site review of the day yet again,
 
-github in 2010 was so minimal like there was js the core functionality and nthng else, now its js diff, all this copilot and actions and all this stuff*/

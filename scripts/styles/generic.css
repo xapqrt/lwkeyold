@@ -1,7 +1,6 @@
 /*  fallback for the unknown sitess*/
 
 
-
 body > div,
 main,
 [role = "main"] {
@@ -18,7 +17,7 @@ main,
 
 
 
-/*generic nav, cuz everything got a nav*/
+
 
 
 
@@ -44,7 +43,7 @@ nav a {
 }
 
 
-/*headerr*/
+
 
 
 header,
@@ -97,7 +96,7 @@ article {
 }
 
 
-/* all the modals*/
+
 
 
 [role="dialog"]{
@@ -109,26 +108,24 @@ article {
     border-radius: 0 !important;
     box-shadow: none !important;
 }
-/* Remove all border-radius, box-shadow, and transitions for flat retro look */
+
 * {
     border-radius: 0 !important;
     box-shadow: none !important;
     transition: none !important;
 }
 
-/* Ensure images and media display properly */
+
 img, picture, video, canvas {
     display: inline-block !important;
     max-width: 100% !important;
     height: auto !important;
 }
 
-/* SVG icons should inherit or use default colors */
+
 svg {
     color: inherit !important;
 }
 
 
 
-/*dis should work on most sites, i used the most general names too so it would detect, idk  might add more stuff
-*/

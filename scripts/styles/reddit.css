@@ -1,10 +1,9 @@
+
+
+
 /*like the old reddit but on new reddit*/
 
-/*narwhal bacon or whatever lol*/
 
-
-
-/*body - XP blue desktop*/
 body {
     background: #5a7ecc !important;
     font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
@@ -12,7 +11,7 @@ body {
     font-size: 11px !important;
 }
 
-/*header - XP gradient*/
+
 header,
 [data-testid="header"],
 shreddit-header {
@@ -24,7 +23,7 @@ shreddit-header {
     padding: 4px 8px !important;
 }
 
-/*header text white*/
+
 header *,
 shreddit-header * {
     color: #fff !important;
@@ -32,7 +31,7 @@ shreddit-header * {
     font-weight: bold !important;
 }
 
-/*search bar - sunken*/
+
 input[type="text"],
 input[placeholder*="Search"] {
     background: #fff !important;
@@ -44,7 +43,7 @@ input[placeholder*="Search"] {
     font-family: Tahoma, Arial, sans-serif !important;
 }
 
-/*main container - beige panel*/
+
 main,
 [role="main"],
 shreddit-app {
@@ -52,7 +51,7 @@ shreddit-app {
     padding: 8px !important;
 }
 
-/*feed list - white window*/
+
 [data-testid="posts-list"],
 shreddit-feed {
     max-width: 1400px !important;
@@ -63,7 +62,7 @@ shreddit-feed {
     padding: 8px !important;
 }
 
-/*individual posts - raised panels*/
+
 [data-test-id="post-container"],
 shreddit-post,
 article {
@@ -74,7 +73,7 @@ article {
     margin: 0 0 8px 0 !important;
 }
 
-/*vote buttons - XP style*/
+
 [data-click-id="upvote"] button,
 [data-click-id="downvote"] button,
 shreddit-upvote,
@@ -92,7 +91,7 @@ shreddit-downvote {
     border-color: #808080 #fff #fff #808080 !important;
 }
 
-/*vote score*/
+
 [data-click-id="vote-score"],
 shreddit-score {
     color: #000 !important;
@@ -100,7 +99,7 @@ shreddit-score {
     font-size: 11px !important;
 }
 
-/*post title - classic blue link*/
+
 [data-test-id="post-title"],
 [slot="title"] a,
 h3 a {
@@ -121,7 +120,7 @@ h3 a {
     color: #f00 !important;
 }
 
-/*subreddit links - smaller blue*/
+
 a[href*="/r/"],
 a[slot="subreddit-name"] {
     color: #00f !important;
@@ -131,7 +130,7 @@ a[slot="subreddit-name"] {
     font-family: Tahoma, Arial, sans-serif !important;
 }
 
-/*username links*/
+
 a[href*="/user/"],
 a[slot="author-name"] {
     color: #00f !important;
@@ -139,7 +138,7 @@ a[slot="author-name"] {
     text-decoration: underline !important;
 }
 
-/*post metadata*/
+
 span[id*="post-time"],
 time,
 faceplate-timeago {
@@ -147,7 +146,7 @@ faceplate-timeago {
     font-size: 9px !important;
 }
 
-/*thumbnails - raised border*/
+
 img[alt*="thumbnail"],
 shreddit-aspect-ratio img {
     border: 2px solid !important;
@@ -156,7 +155,7 @@ shreddit-aspect-ratio img {
     visibility: visible !important;
 }
 
-/*all images visible*/
+
 img,
 video,
 canvas,
@@ -167,7 +166,7 @@ svg {
     visibility: visible !important;
 }
 
-/*action buttons - raised*/
+
 button {
     background: #ece9d8 !important;
     border: 2px solid !important;
@@ -188,7 +187,7 @@ button:active {
     border-color: #808080 #fff #fff #808080 !important;
 }
 
-/*comment count*/
+
 a[data-click-id="comments"] {
     color: #000 !important;
     font-size: 11px !important;
@@ -196,14 +195,14 @@ a[data-click-id="comments"] {
     font-weight: bold !important;
 }
 
-/*HIDE sidebars and modern junk*/
+
 aside,
 [data-testid="right-sidebar"],
 [slot="right-sidebar"] {
     display: none !important;
 }
 
-/*all text black*/
+
 *,
 span,
 div,
@@ -213,7 +212,7 @@ label {
     color: #000 !important;
 }
 
-/*all links classic*/
+
 a {
     color: #00f !important;
     text-decoration: underline !important;
@@ -227,7 +226,7 @@ a:hover {
     color: #f00 !important;
 }
 
-/*no modern effects*/
+
 * {
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -235,7 +234,7 @@ a:hover {
 }
 
 
-/*da main feed*/
+
 
 [data-testid="posts-list"] {
     max-width: 1400px !important;
@@ -245,7 +244,7 @@ a:hover {
     font-size: 13px !important;
 }
 
-/*post containers*/
+
 [data-test-id="post-container"] {
     background: #fff !important;
     border: 1px solid #b0b0b0 !important;
@@ -258,7 +257,7 @@ a:hover {
     box-shadow: none !important;
 }
 
-/*post titles*/
+
 [data-test-id="post-title"] {
     color: #0066cc !important;
     font-size: 14px !important;
@@ -266,7 +265,7 @@ a:hover {
     font-family: Verdana, Arial, sans-serif !important;
 }
 
-/*subreddit links*/
+
 a[href*="/r/"] {
     color: #336699 !important;
     font-size: 11px !important;
@@ -274,7 +273,7 @@ a[href*="/r/"] {
     font-family: Verdana, Arial, sans-serif !important;
 }
 
-/*vote buttons old reddit style*/
+
 [data-click-id="upvote"] button,
 [data-click-id="downvote"] button {
     border: 1px solid #999 !important;
@@ -290,7 +289,7 @@ a[href*="/r/"] {
     color: #7193ff !important;
 }
 
-/*comment threads*/
+
 
 
 [data-testid="comment"] {
@@ -305,7 +304,7 @@ a[href*="/r/"] {
     box-shadow: none !important;
 }
 
-/*username links*/
+
 a[href*="/user/"] {
     color: #006699 !important;
     font-size: 10px !important;
@@ -314,41 +313,41 @@ a[href*="/user/"] {
     font-weight: bold !important;
 }
 
-/*op username*/
+
 a[href*="/user/"][style*="color"] {
     color: #0055df !important;
 }
 
-/*hiding the sidebar stuff*/
+
 [data-testid="right-sidebar-container"] {
     display: none !important;
 }
 
-/*header bar*/
+
 header {
     background: #cee3f8 !important;
     border-bottom: 1px solid #ccc !important;
 }
 
-/*karma count*/
+
 [id*="vote-arrows"] span {
     font-family: Verdana, Arial, sans-serif !important;
     font-size: 11px !important;
     color: #888 !important;
 }
 
-/* Ensure images display properly (thumbnails, etc) */
+
 img, video, canvas, picture {
     display: inline-block !important;
     opacity: 1 !important;
     visibility: visible !important;
 }
 
-/* Remove all border-radius, box-shadow, and transitions for flat retro look */
+
 * {
     border-radius: 0 !important;
     box-shadow: none !important;
     transition: none !important;
 }
 
-/*feels like old reddit kinda, also tho the voting arrows still look kinda modern and i have no idea how to fix that, if u guys know sm shit do lemme know*/
+

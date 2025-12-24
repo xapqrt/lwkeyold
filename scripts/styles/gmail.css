@@ -1,12 +1,12 @@
+
 /*clean email*/
 
-/*main body*/
 body {
     background: #fff !important;
     font-family: Arial, sans-serif !important;
 }
 
-/*header bar at top*/
+
 header,
 .gb_Pc,
 [role="banner"] {
@@ -17,7 +17,7 @@ header,
     font-weight: bold !important;
 }
 
-/*search box*/
+
 input[type="text"],
 input[name="q"],
 .gb_Hd input {
@@ -29,7 +29,7 @@ input[name="q"],
     padding: 6px 8px !important;
 }
 
-/*left sidebar with inbox, starred, etc*/
+
 .aeN,
 [role="navigation"],
 .aHS-bnt {
@@ -38,7 +38,7 @@ input[name="q"],
     width: 200px !important;
 }
 
-/*sidebar items*/
+
 .TK,
 .n3,
 .aio span,
@@ -50,7 +50,7 @@ input[name="q"],
     padding: 6px 10px !important;
 }
 
-/*selected/active sidebar item*/
+
 .nZ.aiq,
 .nZ.aiq .nU,
 .TO.NQ,
@@ -59,14 +59,14 @@ input[name="q"],
     font-weight: bold !important;
 }
 
-/*hover on sidebar*/
+
 .TK:hover,
 .aio:hover,
 .n3:hover {
     background: #eee !important;
 }
 
-/*compose button*/
+
 .T-I-KE,
 [gh="cm"] {
     background: #ece9d8 !important;
@@ -84,7 +84,7 @@ input[name="q"],
     background: #c13929 !important;
 }
 
-/*main email list area*/
+
 [role="main"],
 .AO {
     background: #fff !important;
@@ -92,7 +92,7 @@ input[name="q"],
     font-family: Arial, sans-serif !important;
 }
 
-/*email rows in list*/
+
 tr,
 [role="row"],
 .zA {
@@ -103,7 +103,7 @@ tr,
     font-size: 13px !important;
 }
 
-/*unread emails*/
+
 tr.zE,
 .zA.zE,
 [role="row"].zE {
@@ -111,21 +111,21 @@ tr.zE,
     font-weight: bold !important;
 }
 
-/*read emails*/
+
 tr.yO,
 .zA.yO {
     background: #f5f5f5 !important;
     font-weight: normal !important;
 }
 
-/*hover on email row*/
+
 [role="row"]:hover,
 .zA:hover {
     background: #ffffcc !important;
     box-shadow: 0 1px 2px rgba(0,0,0,0.1) !important;
 }
 
-/*email subject text*/
+
 .y6 span,
 .bog span,
 [role="link"] span {
@@ -133,20 +133,20 @@ tr.yO,
     font-size: 13px !important;
 }
 
-/*email sender name*/
+
 .yW span,
 .zF {
     color: #222 !important;
     font-weight: bold !important;
 }
 
-/*email timestamp*/
+
 .xW span {
     color: #999 !important;
     font-size: 11px !important;
 }
 
-/*links*/
+
 a,
 [role="link"] {
     color: #1155cc !important;
@@ -157,7 +157,7 @@ a:hover {
     text-decoration: underline !important;
 }
 
-/*top toolbar*/
+
 .G-atb,
 [gh="mtb"],
 .iH {
@@ -166,7 +166,7 @@ a:hover {
     padding: 8px !important;
 }
 
-/*toolbar buttons*/
+
 .G-Ni,
 [role="button"],
 .T-I {
@@ -184,7 +184,7 @@ a:hover {
     border-color: #c6c6c6 !important;
 }
 
-/*hide meet and chat*/
+
 [data-tooltip="Meet"],
 [aria-label*="Meet"],
 [aria-label*="Chat"],
@@ -192,21 +192,21 @@ a:hover {
     display: none !important;
 }
 
-/* Ensure images display properly */
+
 img, video, canvas, picture {
     display: inline-block !important;
     opacity: 1 !important;
     visibility: visible !important;
 }
 
-/* Remove all border-radius, box-shadow, and transitions for flat retro look */
+
 * {
     border-radius: 0 !important;
     box-shadow: none !important;
     transition: none !important;
 }
 
-/*compose modal*/
+
 .nH.Hd {
     border: 2px solid #999 !important;
     background: #f0f0f0 !important;

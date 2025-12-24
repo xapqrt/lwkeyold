@@ -1,10 +1,8 @@
+
+
 /*instagram more like simpler gram*/
 
 
-/*also if you dont know ig did not even exist in 2010*/
-/*am guna still make it look old anyway lol*/
-
-/*main body*/
 body {
     background: #5a7ecc !important;
     font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
@@ -25,7 +23,7 @@ nav[role="navigation"] {
     padding: 4px 8px !important;
 }
 
-/*header text*/
+
 
 
 header *,
@@ -46,15 +44,13 @@ header a:hover {
     color: #ffd !important;
 }
 
-/*left sidebar 
 
-*/
 nav {
     background: #ece9d8 !important;
     border-right: 2px solid #808080 !important;
 }
 
-/*sidebar items*/
+
 
 
 
@@ -84,7 +80,7 @@ main,
     border-color: #fff #808080 #808080 #fff !important;
 }
 
-/*KILL THE STORIES*/
+
 
 section[role="menu"],
 [aria-label*="Stories"],
@@ -159,7 +155,7 @@ article > div > div > div img {
     margin: 4px !important;
 }
 
-/*all images work*/
+
 img,
 video,
 canvas,
@@ -170,7 +166,7 @@ picture {
     max-width: 100% !important;
 }
 
-/*action buttons section*/
+
 section {
     padding: 4px 8px !important;
     background: #fff !important;
@@ -187,14 +183,14 @@ section button:active {
     border-color: #808080 #fff #fff #808080 !important;
 }
 
-/*icons*/
+
 svg {
     color: #000 !important;
     opacity: 1 !important;
     visibility: visible !important;
 }
 
-/*likes count*/
+
 section > div {
     padding: 4px 8px !important;
     font-size: 11px !important;
@@ -202,7 +198,7 @@ section > div {
     color: #000 !important;
 }
 
-/*caption*/
+
 ul {
     padding: 0 8px !important;
 }
@@ -214,7 +210,7 @@ ul li {
     color: #000 !important;
 }
 
-/*timestamp*/
+
 time {
     color: #808080 !important;
     font-size: 9px !important;
@@ -241,7 +237,7 @@ input[placeholder*="Add a comment"] {
     width: 100% !important;
 }
 
-/*search bar*/
+
 input[placeholder*="Search"],
 input[type="text"] {
     background: #fff !important;
@@ -273,7 +269,7 @@ button:active {
     border-color: #808080 #fff #fff #808080 !important;
 }
 
-/*follow buttons*/
+
 button:not([type]):not([aria-label*="Like"]) {
     background: #ece9d8 !important;
     border: 2px solid !important;
@@ -281,7 +277,7 @@ button:not([type]):not([aria-label*="Like"]) {
     color: #000 !important;
 }
 
-/*all text visible*/
+
 *,
 span,
 div,
@@ -336,38 +332,36 @@ a[href*="/explore/"] {
     transition: none !important;
 }
 
-/*site review of the day::
 
-ig is like js images and stuff, so its so hard to make it look retro butttt nvm atleast the crome around it looks old haha*/
 
-/*also if you dont know ig did not even exist in 2010*/
 
-/*am guna still make it look old anyway lol*/
 
-/*main body*/
+
+
+
 
 body {
     background: #5a7ecc !important;
     font-family: Tahoma, "MS Sans Serif", Arial, sans-serif !important;
 }
 
-/*kill all dark backgrounds*/
+
 * {
     background-color: transparent !important;
 }
 
-/*but main containers should be white*/
+
 body, html, main, [role="main"] {
     background: #fff !important;
     background-color: #fff !important;
 }
 
-/*all text visible*/
+
 *, span, div, p, h1, h2, h3, button, label, time {
     color: #262626 !important;
 }
 
-/*header bar - simple and clean*/
+
 header,
 nav[role="navigation"] {
     background: linear-gradient(180deg, #0054e3 0%, #1e5bc6 50%, #1e5bc6 51%, #0054e3 100%) !important;
@@ -377,7 +371,7 @@ nav[role="navigation"] {
     padding: 6px 12px !important;
 }
 
-/*instagram logo*/
+
 header a[href="/"],
 nav a[href="/"] {
     font-family: "Billabong", cursive !important;
@@ -385,13 +379,13 @@ nav a[href="/"] {
     color: #262626 !important;
 }
 
-/*left sidebar - white background*/
+
 nav {
     background: #fff !important;
     border-right: 1px solid #e6e6e6 !important;
 }
 
-/*sidebar links*/
+
 nav a,
 nav span,
 nav div {
@@ -399,7 +393,7 @@ nav div {
     font-size: 14px !important;
 }
 
-/*main feed centered*/
+
 main,
 [role="main"] {
     max-width: 600px !important;
@@ -407,7 +401,7 @@ main,
     background: #fff !important;
 }
 
-/*KILL THE STORIES - hide completely*/
+
 section[role="menu"],
 [aria-label*="Stories"],
 [style*="flex-direction: row"],
@@ -416,7 +410,7 @@ div[style*="padding-bottom: 16px"] {
     display: none !important;
 }
 
-/*posts - simple white cards*/
+
 article {
     background: #fff !important;
     margin: 0 0 12px 0 !important;
@@ -424,14 +418,14 @@ article {
     border-color: #808080 #fff #fff #808080 !important;
 }
 
-/*post header*/
+
 article header {
     padding: 16px !important;
     background: #fff !important;
     border-bottom: 1px solid #e6e6e6 !important;
 }
 
-/*profile pi*/
+
 
 
 
@@ -446,7 +440,7 @@ img[alt*="'s profile picture"] {
     visibility: visible !important;
 }
 
-/*username*/
+
 a[href*="/"],
 a[role="link"] {
     color: #262626 !important;
@@ -455,7 +449,7 @@ a[role="link"] {
     text-decoration: none !important;
 }
 
-/*post images */
+
 article > div > div > div img {
     width: 100% !important;
     display: block !important;
@@ -464,7 +458,7 @@ article > div > div > div img {
     border: none !important;
 }
 
-/*all images should work*/
+
 img, video, canvas, picture {
     display: inline-block !important;
     opacity: 1 !important;
@@ -472,9 +466,7 @@ img, video, canvas, picture {
     max-width: 100% !important;
 }
 
-/*
 
-aaaaa*/
 section {
     padding: 4px 16px !important;
     background: #fff !important;
@@ -492,14 +484,14 @@ svg {
     visibility: visible !important;
 }
 
-/*likes count*/
+
 section > div {
     padding: 0 16px 8px !important;
     font-size: 14px !important;
     font-weight: 600 !important;
 }
 
-/*caption*/
+
 ul {
     padding: 0 16px !important;
 }
@@ -511,7 +503,7 @@ ul li {
     color: #262626 !important;
 }
 
-/*timestamp*/
+
 time {
     color: #8e8e8e !important;
     font-size: 10px !important;
@@ -519,13 +511,13 @@ time {
     letter-spacing: 0.2px !important;
 }
 
-/*comment section*/
+
 section:last-child {
     border-top: 1px solid #e6e6e6 !important;
     padding: 0 !important;
 }
 
-/*comment input*/
+
 textarea,
 input[placeholder*="comment"],
 input[placeholder*="Add a comment"] {
@@ -562,13 +554,13 @@ div[tabindex] {
     background-color: #fafafa !important;
 }
 
-/*message text*/
+
 div[dir="auto"],
 span[dir="auto"] {
     color: #262626 !important;
 }
 
-/*search bar in messages*/
+
 input[placeholder*="Search"],
 input[type="text"] {
     background: #efefef !important;
@@ -578,25 +570,25 @@ input[type="text"] {
     border-radius: 8px !important;
 }
 
-/*message preview cards at top*/
+
 div[style*="padding"] > div {
     background: #fff !important;
 }
 
-/*fix all the gray boxes in messages*/
+
 div[style*="background-color: rgb"],
 div[style*="background-color:#"] {
     background: #fff !important;
     background-color: #fff !important;
 }
 
-/*hide right sidebar suggestions*/
+
 aside,
 div[style*="position: fixed"] {
     display: none !important;
 }
 
-/*hide all the modern crap*/
+
 [aria-label*="Reels"],
 [aria-label*="Explore"],
 [aria-label*="Suggested"],
@@ -605,7 +597,7 @@ a[href*="/explore/"] {
     display: none !important;
 }
 
-/*buttons should look clean*/
+
 button {
     background: transparent !important;
     color: #0095f6 !important;
@@ -614,7 +606,7 @@ button {
     cursor: pointer !important;
 }
 
-/*follow buttons*/
+
 button:not([type]):not([aria-label*="Like"]) {
     background: #0095f6 !important;
     color: #fff !important;
@@ -622,6 +614,3 @@ button:not([type]):not([aria-label*="Like"]) {
     border-radius: 4px !important;
 }
 
-/*site review of the day::
-
-ig is like js images and stuff, so its so hard to make it look retro butttt nvm atleast the crome around it looks old haha*/

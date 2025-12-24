@@ -1,6 +1,6 @@
 /*gonna centre everything*/
 
-/* Force white background everywhere */
+
 body,
 html,
 #main,
@@ -14,7 +14,7 @@ html,
     background-image: none !important;
 }
 
-/*the search area at top*/
+
 #searchform,
 form[action="/search"],
 #tsf {
@@ -23,7 +23,7 @@ form[action="/search"],
     padding: 20px 0 !important;
 }
 
-/*search input box*/
+
 input[name="q"],
 textarea[name="q"] {
     border: 1px solid #d9d9d9 !important;
@@ -41,7 +41,7 @@ textarea[name="q"]:focus {
     outline: none !important;
 }
 
-/*search buttons*/
+
 input[type="submit"],
 button[type="submit"],
 input[value*="Search"],
@@ -63,7 +63,7 @@ button[type="submit"]:hover {
     border: 1px solid #c6c6c6 !important;
 }
 
-/*the main search results area*/
+
 #search,
 #main,
 #center_col,
@@ -74,7 +74,7 @@ button[type="submit"]:hover {
     background: #fff !important;
 }
 
-/*result container*/
+
 #rso,
 .g,
 [data-sokoban-container] {
@@ -84,7 +84,7 @@ button[type="submit"]:hover {
     padding: 0 !important;
 }
 
-/*result titles - blue links*/
+
 h3,
 .LC20lb,
 .DKV0Md,
@@ -102,7 +102,7 @@ a:hover h3 {
     text-decoration: underline !important;
 }
 
-/*the green url display*/
+
 cite,
 .qLRx3b,
 .iUh30,
@@ -114,7 +114,7 @@ cite,
     background: transparent !important;
 }
 
-/*result snippets*/
+
 .VwiC3b,
 .IsZvec,
 .lEBKkf,
@@ -129,24 +129,24 @@ span,
     background: transparent !important;
 }
 
-/*force all text elements to be visible*/
+
 div, span, p, a, li, td, th {
     background: transparent !important;
     background-image: none !important;
 }
 
-/*all links should be visible*/
+
 a {
     color: #1a0dab !important;
 }
 
-/*all normal text should be dark*/
+
 span:not([role]):not([jsname]),
 div:not([role]):not([jsname]) {
     color: #222 !important;
 }
 
-/*fix all the dark card backgrounds*/
+
 .g,
 .Gx5Zad,
 .fP1Qef,
@@ -179,7 +179,7 @@ article,
     background-image: none !important;
 }
 
-/*news cards and thumbnails*/
+
 .xuvV6b,
 .VjDLd,
 .P5BnJb,
@@ -188,7 +188,7 @@ article,
     background-color: #fff !important;
 }
 
-/*pagination*/
+
 #botstuff,
 #foot {
     background: #fff !important;
@@ -216,7 +216,7 @@ table[role="presentation"] {
     text-decoration: underline !important;
 }
 
-/*hide annoying stuff*/
+
 [data-initq],
 [aria-label="Ads"],
 #tads,
@@ -224,7 +224,7 @@ table[role="presentation"] {
     display: none !important;
 }
 
-/*google logo area*/
+
 #logo,
 .logo,
 #hplogo {
@@ -232,18 +232,18 @@ table[role="presentation"] {
     padding: 20px 0 !important;
 }
 
-/* Ensure images display properly */
+
 img, video, canvas, picture {
     display: inline-block !important;
     opacity: 1 !important;
     visibility: visible !important;
 }
 
-/* Remove all border-radius, box-shadow, and transitions */
+
 * {
     border-radius: 0 !important;
     box-shadow: none !important;
     transition: none !important;
 }
 
-/*istg google has so many nested divs*/
+

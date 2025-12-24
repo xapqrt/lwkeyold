@@ -1,11 +1,10 @@
 
-/*main body and background*/
 body {
     background: #5a7ecc !important;
     background-image: none !important;
 }
 
-/*left sidebar navigation*/
+
 [data-testid="sidebarColumn"],
 nav[aria-label*="Primary"],
 [role="navigation"]:not([role="navigation"][aria-label*="Footer"]) {
@@ -13,7 +12,7 @@ nav[aria-label*="Primary"],
     border-right: 1px solid #e8e8e8 !important;
 }
 
-/*sidebar links and text*/
+
 nav a,
 nav span,
 nav div,
@@ -28,7 +27,7 @@ nav a:hover {
     color: #0084b4 !important;
 }
 
-/*compose button*/
+
 a[href="/compose/tweet"],
 [data-testid*="SideNav_NewTweet_Button"] {
     background: #0084b4 !important;
@@ -48,7 +47,7 @@ a[href="/compose/tweet"],
 }
 
 
-/*tweets, what am thinking is that ill js make em all simple boxes*/
+
 
 
 
@@ -67,7 +66,6 @@ article:hover {
     background: #f5f8fa !important;
 }
 
-/*tweet text*/
 [data-testid="tweetText"],
 [lang] {
     color: #333 !important;
@@ -76,7 +74,6 @@ article:hover {
     font-family: "Lucida Grande", Verdana, Arial, sans-serif !important;
 }
 
-/*usernames and handles*/
 [data-testid="User-Name"] a,
 a[role="link"][href*="/"] {
     color: #0084b4 !important;
@@ -89,7 +86,6 @@ a[role="link"][href*="/"]:hover {
     text-decoration: underline !important;
 }
 
-/*timestamp*/
 time,
 [datetime] {
     color: #999 !important;
@@ -104,7 +100,6 @@ time,
 
 
 
-/*hide trending, who to follow, explore, floating buttons*/
 [data-testid="trend"],
 [data-testid="UserCell"],
 [aria-label*="Explore"],
@@ -123,7 +118,6 @@ time,
     font-size: 11px !important;
 }
 
-/*action buttons (reply, retweet, like)*/
 [role="group"] button,
 [data-testid*="reply"],
 [data-testid*="retweet"],
@@ -136,8 +130,6 @@ time,
 }
 
 
-
-/* User avatars and profile pictures */
 
 [data-testid="Tweet-user-Avatar"] img,
 img[alt*="avatar"],
@@ -154,7 +146,6 @@ img[alt*="profile"],
 
 
 
-/*compose box*/
 [data-testid="tweetTextarea_0"]{
     border: 1px solid #c0deed !important;
     background: #fff !important;
@@ -178,7 +169,6 @@ nav[role="navigation"]{
     font-weight: bold !important;
 }
 
-/*nav links*/
 nav a {
     color: #333 !important;
 }
@@ -202,7 +192,6 @@ article a:hover {
 
 
 
-/*compose modal styling*/
 [data-testid="tweetComposerOverlay"] {
     background: #fff !important;
     border: 1px solid #c0deed !important;
@@ -216,7 +205,6 @@ article a:hover {
     border-radius: 0 !important;
 }
 
-/*tweet button in compose*/
 [data-testid="tweetButton"],
 [data-testid="tweetButton"]:not([aria-disabled="true"]) {
     background: #ece9d8 !important;
@@ -238,7 +226,6 @@ article a:hover {
 
 
 
-/* Ensure tweet images and media display properly */
 img, video, canvas, picture {
     display: inline-block !important;
     max-width: 100% !important;
@@ -247,21 +234,18 @@ img, video, canvas, picture {
     visibility: visible !important;
 }
 
-/* Tweet images should have retro styling */
 [data-testid="tweetPhoto"] img,
 [data-testid="card.layoutLarge.media"] img {
     border: 1px solid #b0b0b0 !important;
     border-radius: 0 !important;
 }
 
-/* SVG icons and graphics */
 svg {
     display: inline-block !important;
     opacity: 1 !important;
     visibility: visible !important;
 }
 
-/*remove all border-radius, box-shadow, and transitions*/
 * {
     border-radius: 0 !important;
     box-shadow: none !important;

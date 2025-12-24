@@ -10,7 +10,7 @@
 }
 
 
-/*posts are js gunna be simple boxes*/
+
 
 
 [role="article"] {
@@ -31,7 +31,7 @@
     display: none !important;
 }
 
-/* Profile photos and images */
+
 [data-imgperflogname="profilePhoto"],
 img[alt*="profile"],
 img[alt*="avatar"] {
@@ -44,7 +44,7 @@ img[alt*="avatar"] {
     visibility: visible !important;
 }
 
-/* All images in posts */
+
 img {
     display: inline-block !important;
     max-width: 100% !important;
@@ -85,7 +85,7 @@ img {
 }
 
 
-/*da comment box*/
+
 
 
 [contenteditable="true"]{
@@ -108,7 +108,7 @@ a[role="link"]{
     font-family: Verdana, Arial, sans-serif !important;
     font-size: 13px !important;
 }
-/* Remove all border-radius, box-shadow, and transitions for flat retro look */
+
 * {
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -124,7 +124,7 @@ a[role="link"]{
 }
 
 
-/*hide marketplace and gaming*/
+
 [aria-label*="Marketplace"],
 [aria-label*="Gaming"],
 [aria-label*="Watch"] {
@@ -132,7 +132,3 @@ a[role="link"]{
 }
 
 
-/*review of the site:
-
-
-fb has changed so much since 2010, i kinda remember that fb was js a wall*/
